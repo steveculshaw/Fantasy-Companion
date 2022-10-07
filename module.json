@@ -16,7 +16,7 @@
             "system": "swade"
         }
     ],
-    "manifest": "http://137.116.251.118:30000/compendium2module/Fantasy-Companion/module.json",
+    "manifest": "https://github.com/steveculshaw/Fantasy-Companion/blob/master/module.json",
     "download": "http://137.116.251.118:30000/compendium2module/Fantasy-Companion/module-zip.txt",
     "id": "Fantasy-Companion",
     "authors": [
