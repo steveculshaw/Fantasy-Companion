@@ -1,37 +1,37 @@
 {
-    "name": "Fantasy-Companion",
+    "id": "Fantasy-Companion",
     "title": "Fantasy-Companion",
+    "name": "Fantasy-Companion",
     "description": "A module containing the exported Fantasy-Companion compendium",
-    "version": "0.1.6",
+    "version": "2.0.0",
     "library": "false",
-    "manifestPlusVersion": "0.0.5",
-    "minimumCoreVersion": "9",
     "packs": [
         {
-            "type": "Item",
-            "label": "Fantasy-Companion",
-            "module": "Fantasy-Companion",
-            "path": "packs/world-fantasy-companion-1664141080506.db",
             "name": "world-fantasy-companion-1664141080506",
-            "system": "swade"
+            "label": "Fantasy-Companion",
+            "system": "swade",
+            "path": "packs/world-fantasy-companion-1664141080506.db",
+            "module": "Fantasy-Companion",
+            "type": "Item"
         }
     ],
-    "url": "https://github.com/steveculshaw/Fantasy-Companion",
-    "manifest": "https://raw.githubusercontent.com/steveculshaw/Fantasy-Companion/master/module.json",
-    "download": "https://raw.githubusercontent.com/steveculshaw/Fantasy-Companion/master/Fantasy-Companion.zip",
-    "id": "Fantasy-Companion",
     "authors": [
         {
-            "name": "Rick",
-            "flags": {}
+            "id": "Rick",
+            "email": "test@gmail.com",
+            "url": "www.dummy.com"
         },
         {
             "name": "Steve",
-            "flags": {}
+            "email": "test@gmail.com",
+            "url": "www.dummy.com"
         }
     ],
     "compatibility": {
         "minimum": "10",
         "verified": "10"
-    }
+    },
+    "url": "https://github.com/steveculshaw/Fantasy-Companion",
+    "manifest": "https://raw.githubusercontent.com/steveculshaw/Fantasy-Companion/master/module.json",
+    "download": "https://raw.githubusercontent.com/steveculshaw/Fantasy-Companion/master/Fantasy-Companion.zip"
 }
