@@ -3,7 +3,7 @@
     "title": "Fantasy-Companion",
     "name": "Fantasy-Companion",
     "description": "A module containing the exported Fantasy-Companion compendium",
-    "version": "2.0.0",
+    "version": "0.0.2",
     "library": "false",
     "packs": [
         {
