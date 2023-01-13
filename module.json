@@ -16,6 +16,7 @@
             "system": "swade"
         }
     ],
+    "url": "https://github.com/steveculshaw/Fantasy-Companion",
     "manifest": "https://raw.githubusercontent.com/steveculshaw/Fantasy-Companion/master/module.json",
     "download": "https://raw.githubusercontent.com/steveculshaw/Fantasy-Companion/master/Fantasy-Companion.zip",
     "id": "Fantasy-Companion",
