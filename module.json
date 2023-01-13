@@ -2,9 +2,9 @@
     "name": "Fantasy-Companion",
     "title": "Fantasy-Companion",
     "description": "A module containing the exported Fantasy-Companion compendium",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "library": "false",
-    "manifestPlusVersion": "0.0.1",
+    "manifestPlusVersion": "0.0.3",
     "minimumCoreVersion": "9",
     "packs": [
         {
