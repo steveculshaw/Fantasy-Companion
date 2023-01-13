@@ -17,7 +17,7 @@
         }
     ],
     "manifest": "https://github.com/steveculshaw/Fantasy-Companion/blob/master/module.json",
-    "download": "http://137.116.251.118:30000/compendium2module/Fantasy-Companion/module-zip.txt",
+    "download": "https://github.com/steveculshaw/Fantasy-Companion/blob/master/Fantasy-Companion.zip",
     "id": "Fantasy-Companion",
     "authors": [
         {
