@@ -1,4 +1,0 @@
-
-7zip in the actual F:\Fantasy-Companion\ folder ... 
-  - the zip root must be the assets & packs folder, and the module.json file
-
