@@ -33,11 +33,11 @@ echo create new zip ...
 7z a -r -tzip -aoa -xr!.git -x!*.py -x!*.sh %tgt% *.*
 
 echo.
-echo push changes to GitHub ...
-git remote -v
-
+echo git commit changes ...
 git commit -a -m "stage and commit from Fantasy-Companion build script"
 
+echo.
+echo push changes to GitHub ...
 git push origin master
 
 :ALLDONE
