@@ -2,6 +2,8 @@
 
 cls
 
+set version=0.0.7
+
 REM =================================================
 REM Run Script Fantasy Compendium BUILD {rsfcbuild}
 REM =================================================
@@ -33,8 +35,8 @@ echo create new zip ...
 7z a -r -tzip -aoa -xr!.git -x!*.py -x!*.sh %tgt% *.*
 
 echo.
-echo git commit changes ...
-git commit -a -m "stage and commit from Fantasy-Companion build script"
+echo git commit changes version:%version% ...
+git commit -a -m "stage and commit from Fantasy-Companion build script version:%version%"
 
 echo.
 echo push changes to GitHub ...
