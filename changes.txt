@@ -1,0 +1,13 @@
+
+
+/assets/systems/swade/assets/icons/
+
+/assets/icons/
+
+
+/assets/modules/swade-core-rules/assets/art/equipment/weapons/club_heavy.webp
+/assets/icons/weapons/clubs/club-banded-brown.webp
+
+
+/assets/modules/swade-core-rules/assets/art/equipment/weapons/Dagger.webp
+/assets/icons/weapons/daggers/dagger-simple-black.webp
