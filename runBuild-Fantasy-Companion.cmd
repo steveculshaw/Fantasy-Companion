@@ -1,22 +1,18 @@
 @echo off
 
-cls
-
-set version=0.0.8
-
 REM =================================================
 REM Run Script Fantasy Compendium BUILD {rsfcbuild}
 REM =================================================
 
-echo.
-echo building Fantasy Companion version: %VERSION%
-
-:START
-pushd
+set VERSION=0.0.8
+set TGT=Fantasy-Companion.zip
 cd F:\Fantasy-Companion\
 f:
 
-set tgt=Fantasy-Companion.zip
+:START
+cls
+echo.
+echo building Fantasy Companion version: %VERSION%
 
 REM echo.
 REM echo ================================================================
@@ -25,16 +21,18 @@ REM echo.
 REM echo   also update the readme.md with version for ease of checking !
 REM echo ================================================================
 
+:ZIPSTEPS
 echo.
 echo remove old zip ...
-if exist %tgt% del %tgt%
+if exist %TGT% del %TGT%
 echo create new zip ...
-7z a -r -tzip -aoa -xr!.git -x!*.py -x!*.sh %tgt% *.*
+7z a -r -tzip -aoa -xr!.git -x!*.py -x!*.sh %TGT% *.*
 
+:GITSTEPS
 echo.
 echo.
 echo git commit changes for version: %VERSION% ...
-git commit -a -m "stage and commit from Fantasy-Companion build script version:%version%"
+git commit -a -m "stage and commit from Fantasy-Companion build script version: %VERSION%"
 
 echo.
 echo.
@@ -42,9 +40,6 @@ echo push changes to GitHub ...
 git push origin master
 
 :ALLDONE
-REM popd
-REM c:
-
 echo.
 echo all done ...
 
