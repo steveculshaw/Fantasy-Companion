@@ -66,3 +66,21 @@ great axe
 /assets/icons/weapons/axes/axe-double-engraved-black.webp
 battle axe
 /assets/icons/weapons/axes/axe-battle-heavy-black.webp
+
+crossbows [6]
+heavy
+/assets/icons/weapons/crossbows/crossbow-purple.webp
+heavy repeating
+/assets/icons/weapons/crossbows/crossbow-heavy-black.webp
+
+hand
+/assets/icons/weapons/crossbows/crossbow-simple-red.webp
+hand repeating
+/assets/icons/weapons/crossbows/repeating-crossbow.webp
+
+light
+/assets/icons/weapons/crossbows/crossbow-simple-brown.webp 
+light repeating
+/assets/icons/weapons/crossbows/crossbow-blue.webp
+
+
