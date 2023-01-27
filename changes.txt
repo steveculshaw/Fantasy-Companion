@@ -55,3 +55,14 @@ ranged-medieval-net-weighted.webp
 Spear.webp
 Staff.webp
 
+
+search for ...
+modules/Fantasy-Companion/assets/modules/swade-core-rules
+throwing axe
+/assets/icons/weapons/axes/shortaxe-yellow.webp
+hand axe
+/assets/icons/weapons/axes/axe-broad-engraved.webp
+great axe 
+/assets/icons/weapons/axes/axe-double-engraved-black.webp
+battle axe
+/assets/icons/weapons/axes/axe-battle-heavy-black.webp
