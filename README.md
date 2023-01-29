@@ -37,3 +37,5 @@ Version: 0.0.11 ... rest done
 Version: 0.0.12 ... image corrections
 
 Version: 0.0.13 ... few more image corrections
+
+Version: 0.0.14 ... text wrapping
