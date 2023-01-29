@@ -33,3 +33,7 @@ Version: 0.0.9  ... axes done
 Version: 0.0.10 ... crossbows done
 
 Version: 0.0.11 ... rest done
+
+Version: 0.0.12 ... image corrections
+
+Version: 0.0.13 ... ?
