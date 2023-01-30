@@ -18,24 +18,26 @@ Amend version in ...
 
 ## Changes
 
-Version: 0.0.4  ... started clean-up
+Version: 0.0.4  
 
-Version: 0.0.5  ... start updating weapons
+Version: 0.0.5  
 
-Version: 0.0.6  ... not checking in local files, only zip
+Version: 0.0.6  
 
-Version: 0.0.7  ... just build check
+Version: 0.0.7  
 
-Version: 0.0.8  ... swords done
+Version: 0.0.8  
 
-Version: 0.0.9  ... axes done
+Version: 0.0.9  
 
-Version: 0.0.10 ... crossbows done
+Version: 0.0.10
 
-Version: 0.0.11 ... rest done
+Version: 0.0.11
 
-Version: 0.0.12 ... image corrections
+Version: 0.0.12
 
-Version: 0.0.13 ... few more image corrections
+Version: 0.0.13
 
-Version: 0.0.14 ... text wrapping
+Version: 0.0.14
+
+Version: 0.0.15
