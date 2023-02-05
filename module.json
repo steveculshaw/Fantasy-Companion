@@ -3,7 +3,7 @@
     "title": "Fantasy-Companion",
     "name": "Fantasy-Companion",
     "description": "A module containing personal Fantasy-Companion compendium as of v1.5",
-    "version": "0.1.5",
+    "version": "0.2.1",
     "library": "false",
     "packs": [
         {
@@ -11,6 +11,38 @@
             "label": "Fantasy-Companion",
             "system": "swade",
             "path": "packs/world-fantasy-companion-1664141080506.db",
+            "module": "Fantasy-Companion",
+            "type": "Item"
+        },
+        {
+            "name": "fantasy-companion-edges",
+            "label": "FC-Edges",
+            "system": "swade",
+            "path": "packs/fantasy-companion-edges.db",
+            "module": "Fantasy-Companion",
+            "type": "Item"
+        },
+        {
+            "name": "fantasy-companion-hindrances",
+            "label": "FC-Hindrances",
+            "system": "swade",
+            "path": "packs/fantasy-companion-hindrances.db",
+            "module": "Fantasy-Companion",
+            "type": "Item"
+        },
+        {
+            "name": "fantasy-companion-skills",
+            "label": "FC-Skills",
+            "system": "swade",
+            "path": "packs/fantasy-companion-skills.db",
+            "module": "Fantasy-Companion",
+            "type": "Item"
+        },
+        {
+            "name": "fc-equipment",
+            "label": "FC-Equipment",
+            "system": "swade",
+            "path": "packs/fc-equipment.db",
             "module": "Fantasy-Companion",
             "type": "Item"
         }
