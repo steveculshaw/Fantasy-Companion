@@ -55,3 +55,5 @@ Version: 0.1.4
 Version: 0.1.5 manually added item
 
 Version: 0.2.1 attempt to start breaking into multiple pack db files
+
+Version: 0.2.2
