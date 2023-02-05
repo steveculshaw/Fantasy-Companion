@@ -64,4 +64,6 @@ Version: 0.2.4 hindrances tweaked
 
 Version: 0.2.5 Alchemy to Smarts, other hindrances to system rather than data, as they weren't exported then imported
 
-Version: 0.2.5 attempt to fix Hindrances
+Version: 0.2.6 attempt to fix Hindrances
+
+Version: 0.2.7 WHY ARE HINDRANCES MAJOR/MINOR NOT WORKING
