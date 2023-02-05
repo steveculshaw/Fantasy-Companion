@@ -61,3 +61,5 @@ Version: 0.2.2
 Version: 0.2.3 hindrances in-progress and skills done
 
 Version: 0.2.4 hindrances tweaked
+
+Version: 0.2.5 Alchemy to Smarts, other hindrances to system rather than data, as they weren't exported then imported
