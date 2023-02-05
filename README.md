@@ -58,4 +58,6 @@ Version: 0.2.1 attempt to start breaking into multiple pack db files
 
 Version: 0.2.2
 
-Version: 0.2.2 hindrances and skills done
+Version: 0.2.3 hindrances in-progress and skills done
+
+Version: 0.2.4 hindrances tweaked
