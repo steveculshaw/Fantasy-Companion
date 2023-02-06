@@ -70,4 +70,8 @@ Version: 0.2.7 Cursed, Grim, Jingoistic, Material Components, Selfless & Talisma
 
 Version: 0.2.8 Druid's Heartstaff and Great Sword two-handed
 
-Version: 0.2.8 remove edges & hindrances from equipment pack ... fix Great Sword?
+Version: 0.2.9 remove edges & hindrances from equipment pack ... fix Great Sword
+
+Version: 0.2.10 remove powers from equipment pack, add new powers pack
+
+Version: 0.2.11
