@@ -66,4 +66,4 @@ Version: 0.2.5 Alchemy to Smarts, other hindrances to system rather than data, a
 
 Version: 0.2.6 attempt to fix Hindrances
 
-Version: 0.2.7 WHY ARE HINDRANCES MAJOR/MINOR NOT WORKING
+Version: 0.2.7 Cursed, Grim, Jingoistic, Material Components, Selfless & Talisman corrections.
