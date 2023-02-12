@@ -1,0 +1,12 @@
+Blessing
+Conjure Item
+Curse
+Locate
+Planar Binding
+Plane Shift
+Sanctuary
+Scrying
+Summon Animal
+Summon Monster
+Summon Undead
+Wish
