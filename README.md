@@ -76,4 +76,4 @@ Version: 0.2.10 remove powers from equipment pack, add new powers pack
 
 Version: 0.2.11 rename build-scripts, pull back skills & FC packs to code
 
-Version: 0.2.12
+Version: 0.2.12 add missing powers

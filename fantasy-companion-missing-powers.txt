@@ -1,3 +1,30 @@
+Lock/Unlock N
+Mystic Intervention L
+Scrying S
+Summon Animal N
+Summon Monster N
+Summon Undead N
+Time Stop H
+Wish L
+
+Changed ...
+Arcane Protection N
+Barrier S
+Confusion N
+Detect/Conceal Arcana N
+Dispel N
+Divination S
+Elemental Manipulation N
+Empathy N
+Intangibility V
+Object Reading S
+Protection N
+Relief N
+Shape Change N
+Summon Ally N
+Telekinesis S
+Zombie V
+
 Blessing
 Conjure Item
 Curse
@@ -5,8 +32,3 @@ Locate
 Planar Binding
 Plane Shift
 Sanctuary
-Scrying
-Summon Animal
-Summon Monster
-Summon Undead
-Wish
