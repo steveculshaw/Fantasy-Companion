@@ -16,12 +16,6 @@ New ...
   Wish L (minimal)
 
 Changed ...
-Protection N
-Relief N
-Shape Change N
-Summon Ally N
-Telekinesis S
-Zombie V
 
   Arcane Protection N
   Barrier S
@@ -33,5 +27,10 @@ Zombie V
   Empathy N
   Intangibility V
   Object Reading S
-
+  Protection N
+  Relief N
+  Shape Change N
+  Summon Ally N
+  Telekinesis S
   Teleport N  (not marked as changed ... BUT IT IS)
+  Zombie V
