@@ -78,4 +78,4 @@ Version: 0.2.11 rename build-scripts, pull back skills & FC packs to code
 
 Version: 0.2.12 add missing powers
 
-Version: 0.2.13
+Version: 0.2.13 add FC edges (up to Novice)
