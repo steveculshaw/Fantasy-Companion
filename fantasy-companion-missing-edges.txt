@@ -1,36 +1,21 @@
-Background edges ...
-Arcane Background N ... see chapter 4, p.89
-  Alchemist
-  Bard
-  etc. to 
-  Wizard
-Chosen N
-Fey Blood N
-Favoured Enemy N
-Favoured Terrain N
-Heirloom N
-
+===========================
+==== !!! NOT DONE !!! =====
+===========================
 Combat edges ...
 Charge S
-Close Fighting N
-  Improved Close Fighting V
 Defender S
 Dirty Fighter S
   Really Dirty Fighter S
 Double Shot S
   Improved Double Shot H
-Formation Fighter N
-  Shield Wall N
 Martial Flexibility S
 Missile Deflection H
 Opportunistic V
 Roar S
-Savagery N
 Scorch S
 Sneak Attack S
   Improved Sneak Attack V
 Stunning Blow S
-Sunder N
 Take the Hit S
 Trick Shot S
 Uncanny Reflexes V
@@ -39,33 +24,17 @@ Wing Gust S
 Power Edges ...
   Master Artificer H
 Battle Magic V
-Blood Magic N
 Epic Mastery V
-Familiar N
 Favoured Power S
 Mystic Powers S
-Silent Caster N
-Transfer N
 
 Professional Edges ...
-Born in the Saddle N
-Explorer N
-Knight N
-Mount N
-Poisoner N
 Scout S
-Stonecunning N
 Trap Sense S
-Treasure Hunter N
 Troubadour S
 
 Social Edges ...
 Deceptive S
-
-Weird Edges ...
-Aura of Courage N
-Beast Talker N
-Rapid Change N
 
 Legendary Edges ...
 Home Ground L
@@ -73,10 +42,52 @@ Relic L
 Unstoppable L
 Warband L
 
-
-Amended ...
-Arcane Resistance
-Artificer
-
 Remove ... are there any?
 Wizard in Power section?
+
+==== DONE =====
+Amended ...
+  Arcane Resistance
+    Improved Arcane Resistance
+  Artificer
+    Master Artificer
+
+Background edges ...
+  Arcane Background N ... see chapter 4, p.89
+    Alchemist
+    Bard
+    etc. to 
+    Wizard
+  Chosen N
+  Fey Blood N
+  Favoured Enemy N
+  Favoured Terrain N
+  Heirloom N
+
+Combat edges ...
+  Close Fighting N
+    Improved Close Fighting V
+  Formation Fighter N
+    Shield Wall N
+  Savagery N
+  Sunder N
+
+Power Edges ...
+  Blood Magic N
+  Familiar N
+  Silent Caster N
+  Transfer N
+
+Professional Edges ...
+  Born in the Saddle N
+  Explorer N
+  Knight N
+  Mount N
+  Poisoner N
+  Stonecunning N
+  Treasure Hunter N
+
+Weird Edges ...
+  Aura of Courage N
+  Beast Talker N
+  Rapid Change N
