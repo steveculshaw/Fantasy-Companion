@@ -78,4 +78,6 @@ Version: 0.2.11 rename build-scripts, pull back skills & FC packs to code
 
 Version: 0.2.12 add missing powers
 
-Version: 0.2.13 add FC edges (up to Novice)
+Version: 0.2.13 !!! messed up, overwrote all the work on Edges !!!
+
+Version: 0.2.14 (re)added the edges including abridged Arcane Backgrounds

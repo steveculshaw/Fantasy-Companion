@@ -59,9 +59,9 @@ Background edges ...
     etc. to 
     Wizard
   Chosen N
-  Fey Blood N
   Favoured Enemy N
   Favoured Terrain N
+  Fey Blood N
   Heirloom N
 
 Combat edges ...
