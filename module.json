@@ -3,17 +3,9 @@
     "title": "Fantasy-Companion",
     "name": "Fantasy-Companion",
     "description": "A module containing personal Fantasy-Companion compendium as of v1.5",
-    "version": "0.2.14",
+    "version": "0.2.15",
     "library": "false",
     "packs": [
-        {
-            "name": "world-fantasy-companion-1664141080506",
-            "label": "Fantasy-Companion",
-            "system": "swade",
-            "path": "packs/world-fantasy-companion-1664141080506.db",
-            "module": "Fantasy-Companion",
-            "type": "Item"
-        },
         {
             "name": "fantasy-companion-edges",
             "label": "Edges",
