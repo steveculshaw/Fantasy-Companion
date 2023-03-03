@@ -83,3 +83,5 @@ Version: 0.2.13 !!! messed up, overwrote all the work on Edges !!!
 Version: 0.2.14 (re)added the edges including abridged Arcane Backgrounds
 
 Version: 0.2.15 dropped the original all-in-one compendium pack
+
+Version: 0.2.16 dropped the edges that required the dropped Arcane Backgrounds
