@@ -87,3 +87,5 @@ Version: 0.2.15 dropped the original all-in-one compendium pack
 Version: 0.2.16 dropped the edges that required the dropped Arcane Backgrounds
 
 Version: 0.2.17 correct Sunrod
+
+Version: 0.2.18 correct Dispel to Novice
