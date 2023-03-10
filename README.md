@@ -89,3 +89,5 @@ Version: 0.2.16 dropped the edges that required the dropped Arcane Backgrounds
 Version: 0.2.17 correct Sunrod
 
 Version: 0.2.18 correct Dispel to Novice
+
+Version: 0.2.19 correct cloth/light leather armour items, and add AB (cleric) mercy edge
