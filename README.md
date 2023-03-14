@@ -90,6 +90,8 @@ Version: 0.2.17 correct Sunrod
 
 Version: 0.2.18 correct Dispel to Novice
 
-Version: 0.2.19 correct cloth/light leather armour items, add AB (cleric) mercy edge
+Version: 0.2.19 correct cloth/light leather armour items, add AB (cleric) Mercy edge
 
-Version: 0.2.20 correct mercy with missing item category (Arcane background), add masterwork chain shirt & leggings, add spellbooks wizard edge
+Version: 0.2.20 correct Mercy with missing item category (Arcane Background), add Masterwork Chain Shirt & Leggings, add Spellbooks wizard edge
+
+Version: 0.2.21 pull back changes up to 14/03/2023; Brawny edge encumbrance, Rapier & Chakram AE's for Parry, new edge Animal Brawny for mules
