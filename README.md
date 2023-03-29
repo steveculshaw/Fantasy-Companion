@@ -99,3 +99,5 @@ Version: 0.2.21 pull back changes up to 14/03/2023; Brawny edge encumbrance, Rap
 Version: 0.2.22 icons for the Parry+1 on Rapier and Chakram
 
 Version: 0.2.23 comment in elemental manipulation, and add elemental manipulation attack item
+
+Version: 0.2.24 add unarmed fist weapon
