@@ -1,4 +1,4 @@
-const groupName = "Savage Pathfinder";
+const groupName = "Fantasy-Companion";
 const groupNamePP = "Power Points";
 const groupNamePModifiers = "Power Modifiers";
 const groupNameGenericPModifiers = "Power Modifiers - Generic";
@@ -14,7 +14,7 @@ export const ppcommon = [
     "shotsUsed": "+1",
     selector_type: "item_type",
     selector_value: "power",
-    group: "Power Points"
+    group: groupNamePP
   },
   {
     id: "CH02PP",
@@ -23,7 +23,7 @@ export const ppcommon = [
     "shotsUsed": "+2",
     selector_type: "item_type",
     selector_value: "power",
-    group: "Power Points"
+    group: groupNamePP
   },
   {
     id: "CH03PP",
@@ -32,7 +32,7 @@ export const ppcommon = [
     "shotsUsed": "+3",
     selector_type: "item_type",
     selector_value: "power",
-    group: "Power Points"
+    group: groupNamePP
   },
   {
     id: "CH04PP",
@@ -41,7 +41,7 @@ export const ppcommon = [
     "shotsUsed": "+4",
     selector_type: "item_type",
     selector_value: "power",
-    group: "Power Points"
+    group: groupNamePP
   },
   {
     id: "CH05PP",
@@ -50,7 +50,7 @@ export const ppcommon = [
     "shotsUsed": "+5",
     selector_type: "item_type",
     selector_value: "power",
-    group: "Power Points"
+    group: groupNamePP
   },
   {
     id: "CH06PP",
@@ -59,7 +59,7 @@ export const ppcommon = [
     "shotsUsed": "+6",
     selector_type: "item_type",
     selector_value: "power",
-    group: "Power Points"
+    group: groupNamePP
   },
   {
     id: "CH07PP",
@@ -68,7 +68,7 @@ export const ppcommon = [
     "shotsUsed": "+7",
     selector_type: "item_type",
     selector_value: "power",
-    group: "Power Points"
+    group: groupNamePP
   },
   {
     id: "CH08PP",
@@ -77,7 +77,7 @@ export const ppcommon = [
     "shotsUsed": "+8",
     selector_type: "item_type",
     selector_value: "power",
-    group: "Power Points"
+    group: groupNamePP
   },
   {
     id: "CH09PP",
@@ -86,9 +86,8 @@ export const ppcommon = [
     "shotsUsed": "+9",
     selector_type: "item_type",
     selector_value: "power",
-    group: "Power Points"
+    group: groupNamePP
   },
-
   // ----------------------
   // Generic Power Modifiers
   {
@@ -193,5 +192,4 @@ export const ppcommon = [
     selector_value: "power",
     group: groupNameGenericPModifiers
   }
-  
 ];
