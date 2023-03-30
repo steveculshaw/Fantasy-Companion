@@ -112,4 +112,4 @@ Version: 0.3.28 bring in rest of world actions, next ABILITIES
 
 Version: 0.3.29 bring in rest of world actions, next EDGES
 
-Version: 0.3.30 bring in rest of world actions, next
+Version: 0.3.30 fix the error in the init.js

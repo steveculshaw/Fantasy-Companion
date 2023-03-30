@@ -4,6 +4,7 @@ import * as ABILITIES from './br_abilities.js'
 
 Hooks.once('ready', () => {
   if (game.modules.get("betterrolls-swade2")?.active) {
+    game.brsw.add_actions(EDGES.edges);
     game.brsw.add_actions(OPTIONS.options);
     game.brsw.add_actions(ABILITIES.abilities);
   } else {
