@@ -106,4 +106,6 @@ Version: 0.2.25 icons for Power Effect Builder and Mighty Summoner macros from S
 
 Version: 0.3.26 add some of the extra options to world actions based upon the "better-rolls-extra-actions"
 
-Version: 0.3.27 working on actions
+Version: 0.3.27 working on actions ... first OPTIONS
+
+Version: 0.3.28 bring in rest of world actions, next ABILITIES
