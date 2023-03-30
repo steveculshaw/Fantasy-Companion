@@ -109,3 +109,7 @@ Version: 0.3.26 add some of the extra options to world actions based upon the "b
 Version: 0.3.27 working on actions ... first OPTIONS
 
 Version: 0.3.28 bring in rest of world actions, next ABILITIES
+
+Version: 0.3.29 bring in rest of world actions, next EDGES
+
+Version: 0.3.30 bring in rest of world actions, next

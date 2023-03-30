@@ -1,3 +1,4 @@
+import * as EDGES from './br_edges.js'
 import * as OPTIONS from './br_options.js'
 import * as ABILITIES from './br_abilities.js'
 

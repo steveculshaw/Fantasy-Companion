@@ -3,7 +3,7 @@
   "title": "Fantasy-Companion",
   "name": "Fantasy-Companion",
   "description": "A module containing personal Fantasy-Companion compendium as of v1.5",
-  "version": "0.3.28",
+  "version": "0.3.29",
   "library": "false",
   "packs": [
     {
