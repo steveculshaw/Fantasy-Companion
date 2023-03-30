@@ -1,4 +1,4 @@
-const groupName = "Fantasy Companion";
+const groupName = "Fantasy-Companion";
 
 export const options = [
   {
@@ -9,13 +9,13 @@ export const options = [
     dmgMod: -2,
     dmgOverride: "",
     and_selector: [{
-        selector_type: "skill",
-        selector_value: "Fighting"
-      },
-      {
-        selector_type: "item_type",
-        selector_value: "weapon"
-      }
+      selector_type: "skill",
+      selector_value: "Fighting"
+    },
+    {
+      selector_type: "item_type",
+      selector_value: "weapon"
+    }
     ],
     group: groupName
   },
@@ -27,15 +27,14 @@ export const options = [
     dmgMod: -4,
     dmgOverride: "",
     and_selector: [{
-        selector_type: "skill",
-        selector_value: "Fighting"
-      },
-      {
-        selector_type: "item_type",
-        selector_value: "weapon"
-      }
+      selector_type: "skill",
+      selector_value: "Fighting"
+    },
+    {
+      selector_type: "item_type",
+      selector_value: "weapon"
+    }
     ],
     group: groupName
-  }  
-
+  }
 ];

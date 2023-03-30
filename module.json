@@ -3,7 +3,7 @@
   "title": "Fantasy-Companion",
   "name": "Fantasy-Companion",
   "description": "A module containing personal Fantasy-Companion compendium as of v1.5",
-  "version": "0.3.25",
+  "version": "0.3.27",
   "library": "false",
   "packs": [
     {
@@ -63,8 +63,10 @@
     "minimum": "10",
     "verified": "10"
   },
-  "scripts": [],  
-	"esmodules": ["./scripts/init.js"],
+  "scripts": [],
+  "esmodules": [
+    "./scripts/init.js"
+  ],
   "styles": [],
   "url": "https://github.com/steveculshaw/Fantasy-Companion",
   "manifest": "https://raw.githubusercontent.com/steveculshaw/Fantasy-Companion/master/module.json",
