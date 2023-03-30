@@ -101,3 +101,7 @@ Version: 0.2.22 icons for the Parry+1 on Rapier and Chakram
 Version: 0.2.23 comment in elemental manipulation, and add elemental manipulation attack item
 
 Version: 0.2.24 add unarmed fist weapon
+
+Version: 0.2.25 icons for Power Effect Builder and Mighty Summoner macros from SWIM module
+
+Version: 0.2.26 ?
