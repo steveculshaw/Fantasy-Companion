@@ -97,7 +97,6 @@ export const edges = [
     ],
     group: groupName
   },
-
   {
     id: "EDGEWORKTHEROOM",
     name: "Work the room",
@@ -159,7 +158,4 @@ export const edges = [
     group: edgesGroupName,
     rof: "3"
   }
-
-
 ];
-
