@@ -104,4 +104,4 @@ Version: 0.2.24 add unarmed fist weapon
 
 Version: 0.2.25 icons for Power Effect Builder and Mighty Summoner macros from SWIM module
 
-Version: 0.3.26 add the extra options to world actions based upon the "better-rolls-extra-actions"
+Version: 0.3.26 add some of the extra options to world actions based upon the "better-rolls-extra-actions"
