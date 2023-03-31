@@ -90,15 +90,16 @@ export const ppcommon = [
   },
   // ----------------------
   // Generic Power Modifiers
-  {
-    id: "ADAPTABLECASTER1",
-    name: "Adaptable Caster (+1)",
-    button_name: "Adaptable Caster (+1)",
-    shotsUsed: "+1",
-    selector_type: "item_type",
-    selector_value: "power",
-    group: groupNameGenericPModifiers
-  },
+  // ... is Adaptable Caster from Pathfinder?
+  // {
+  //   id: "ADAPTABLECASTER1",
+  //   name: "Adaptable Caster (+1)",
+  //   button_name: "Adaptable Caster (+1)",
+  //   shotsUsed: "+1",
+  //   selector_type: "item_type",
+  //   selector_value: "power",
+  //   group: groupNameGenericPModifiers
+  // },
   {
     id: "ARMORPIERCING1",
     name: "Armor Piercing 2 (+1)",
@@ -107,7 +108,7 @@ export const ppcommon = [
     shotsUsed: "+1",
     selector_type: "item_type",
     selector_value: "power",
-    group: "Armor Piercing"
+    group: groupNameGenericPModifiers
   },
   {
     id: "ARMORPIERCING2",
@@ -117,7 +118,7 @@ export const ppcommon = [
     shotsUsed: "+2",
     selector_type: "item_type",
     selector_value: "power",
-    group: "Armor Piercing"
+    group: groupNameGenericPModifiers
   },
   {
     id: "ARMORPIERCING3",
@@ -127,7 +128,7 @@ export const ppcommon = [
     shotsUsed: "+3",
     selector_type: "item_type",
     selector_value: "power",
-    group: "Armor Piercing"
+    group: groupNameGenericPModifiers
   },
   {
     id: "FATIGUE",
@@ -157,6 +158,15 @@ export const ppcommon = [
     group: groupNameGenericPModifiers
   },
   {
+    id: "HINDERHURRY2",
+    name: "Hinder/Hurry (+2)",
+    button_name: "Hinder/Hurry (+2)",
+    shotsUsed: "+2",
+    selector_type: "item_type",
+    selector_value: "power",
+    group: groupNameGenericPModifiers
+  },
+  {
     id: "LINGERINGDAMAGE2",
     name: "Lingering Damage (+2)",
     button_name: "Lingering Damage (+2)",
@@ -172,7 +182,7 @@ export const ppcommon = [
     shotsUsed: "+1",
     selector_type: "item_type",
     selector_value: "power",
-    group: "Range"
+    group: groupNameGenericPModifiers
   },
   {
     id: "RANGE2",
@@ -181,13 +191,22 @@ export const ppcommon = [
     shotsUsed: "+2",
     selector_type: "item_type",
     selector_value: "power",
-    group: "Range"
+    group: groupNameGenericPModifiers
   },
   {
     id: "SELECTIVE1",
     name: "Selective (+1)",
     button_name: "Selective (+1)",
     shotsUsed: "+1",
+    selector_type: "item_type",
+    selector_value: "power",
+    group: groupNameGenericPModifiers
+  },
+  {
+    id: "HASTY2",
+    name: "Hasty (+2)",
+    button_name: "Hasty (+2)",
+    shotsUsed: "+2",
     selector_type: "item_type",
     selector_value: "power",
     group: groupNameGenericPModifiers
