@@ -118,3 +118,5 @@ Version: 0.3.31 bring in rest of world actions, next PPCOMMON
 
 Version: 0.3.32 add rest of the generic power modifiers to world actions, add savagery edge to replace manual one
     **NOTE: Hinder/Hurry does NOT handle the -2/+2 to Pace**
+
+Version: 0.3.33 drop the custom "Fighting Bastard Swords", as the Trademark weapon is standard in weapon properties.
