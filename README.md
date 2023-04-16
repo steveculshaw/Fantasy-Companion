@@ -120,3 +120,5 @@ Version: 0.3.32 add rest of the generic power modifiers to world actions, add sa
     **NOTE: Hinder/Hurry does NOT handle the -2/+2 to Pace**
 
 Version: 0.3.33 drop the custom "Fighting Bastard Swords", as the Trademark weapon is standard in weapon properties.
+
+Version: 0.3.34 added power modifier for "Mind Rider (+1)" to be added to all powers with "Mind Rider" in their description
