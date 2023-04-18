@@ -2,51 +2,51 @@
   "id": "Fantasy-Companion",
   "title": "Fantasy-Companion",
   "description": "A module containing personal Fantasy-Companion compendium as of v1.5",
-  "version": "0.4.36",
+  "version": "0.4.37",
   "packs": [
     {
       "name": "fantasy-companion-edges",
       "label": "Edges",
-      "system": "swade",
       "path": "packs/fantasy-companion-edges.db",
-      "type": "Item",
       "private": false,
+      "type": "Item",
+      "system": "swade",
       "flags": {}
     },
     {
       "name": "fantasy-companion-hindrances",
       "label": "Hindrances",
-      "system": "swade",
       "path": "packs/fantasy-companion-hindrances.db",
-      "type": "Item",
       "private": false,
+      "type": "Item",
+      "system": "swade",
       "flags": {}
     },
     {
       "name": "fantasy-companion-skills",
       "label": "Skills",
-      "system": "swade",
       "path": "packs/fantasy-companion-skills.db",
-      "type": "Item",
       "private": false,
+      "type": "Item",
+      "system": "swade",
       "flags": {}
     },
     {
       "name": "fantasy-companion-powers",
       "label": "Powers",
-      "system": "swade",
       "path": "packs/fantasy-companion-powers.db",
-      "type": "Item",
       "private": false,
+      "type": "Item",
+      "system": "swade",
       "flags": {}
     },
     {
       "name": "fantasy-companion-equipment",
       "label": "Equipment",
-      "system": "swade",
       "path": "packs/fantasy-companion-equipment.db",
-      "type": "Item",
       "private": false,
+      "type": "Item",
+      "system": "swade",
       "flags": {}
     }
   ],
