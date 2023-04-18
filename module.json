@@ -1,73 +1,76 @@
 {
   "id": "Fantasy-Companion",
   "title": "Fantasy-Companion",
-  "name": "Fantasy-Companion",
   "description": "A module containing personal Fantasy-Companion compendium as of v1.5",
   "version": "0.3.34",
-  "library": "false",
   "packs": [
     {
       "name": "fantasy-companion-edges",
       "label": "Edges",
       "system": "swade",
       "path": "packs/fantasy-companion-edges.db",
-      "module": "Fantasy-Companion",
-      "type": "Item"
+      "type": "Item",
+      "private": false,
+      "flags": {}
     },
     {
       "name": "fantasy-companion-hindrances",
       "label": "Hindrances",
       "system": "swade",
       "path": "packs/fantasy-companion-hindrances.db",
-      "module": "Fantasy-Companion",
-      "type": "Item"
+      "type": "Item",
+      "private": false,
+      "flags": {}
     },
     {
       "name": "fantasy-companion-skills",
       "label": "Skills",
       "system": "swade",
       "path": "packs/fantasy-companion-skills.db",
-      "module": "Fantasy-Companion",
-      "type": "Item"
+      "type": "Item",
+      "private": false,
+      "flags": {}
     },
     {
       "name": "fantasy-companion-powers",
       "label": "Powers",
       "system": "swade",
       "path": "packs/fantasy-companion-powers.db",
-      "module": "Fantasy-Companion",
-      "type": "Item"
+      "type": "Item",
+      "private": false,
+      "flags": {}
     },
     {
       "name": "fantasy-companion-equipment",
       "label": "Equipment",
       "system": "swade",
       "path": "packs/fantasy-companion-equipment.db",
-      "module": "Fantasy-Companion",
-      "type": "Item"
+      "type": "Item",
+      "private": false,
+      "flags": {}
     }
   ],
   "authors": [
     {
       "name": "Rick",
       "email": "test@gmail.com",
-      "url": "www.dummy.com"
+      "url": "www.dummy.com",
+      "flags": {}
     },
     {
       "name": "Steve",
       "email": "test@gmail.com",
-      "url": "www.dummy.com"
+      "url": "www.dummy.com",
+      "flags": {}
     }
   ],
   "compatibility": {
     "minimum": "10",
     "verified": "10"
   },
-  "scripts": [],
   "esmodules": [
-    "./scripts/init.js"
+    "scripts/init.js"
   ],
-  "styles": [],
   "url": "https://github.com/steveculshaw/Fantasy-Companion",
   "manifest": "https://raw.githubusercontent.com/steveculshaw/Fantasy-Companion/master/module.json",
   "download": "https://raw.githubusercontent.com/steveculshaw/Fantasy-Companion/master/Fantasy-Companion.zip"
