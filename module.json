@@ -2,7 +2,7 @@
   "id": "Fantasy-Companion",
   "title": "Fantasy-Companion",
   "description": "A module containing personal Fantasy-Companion compendium as of v1.5",
-  "version": "0.4.35",
+  "version": "0.4.36",
   "packs": [
     {
       "name": "fantasy-companion-edges",
