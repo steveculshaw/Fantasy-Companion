@@ -18,7 +18,15 @@ Amend version in ...
 
 ## Changes
 
-Version: 0.0.4  
+Version: 0.5.38 roll back the SWADE 2.3.3 changes
+
+Version: 0.4.37 correct Unarmoured Hero weight to 0
+
+Version: 0.4.36 add Unarmoured Hero item to handle the Soak+2 setting rule (core SWADE p.141)
+
+Version: 0.4.35 update after pulling back SWADE 2.3 changes to db files and module.json
+
+Version: 0.3.34 added power modifier for "Mind Rider (+1)" to be added to all powers with "Mind Rider" in their description
 
 Version: 0.0.5  
 
@@ -121,10 +129,10 @@ Version: 0.3.32 add rest of the generic power modifiers to world actions, add sa
 
 Version: 0.3.33 drop the custom "Fighting Bastard Swords", as the Trademark weapon is standard in weapon properties.
 
-Version: 0.3.34 added power modifier for "Mind Rider (+1)" to be added to all powers with "Mind Rider" in their description
+Version: 0.0.4
 
-Version: 0.4.35 update after pulling back SWADE 2.3 changes to db files and module.json
+Version: 0.0.3
 
-Version: 0.4.36 add Unarmoured Hero item to handle the Soak+2 setting rule (core SWADE p.141)
+Version: 0.0.2  
 
-Version: 0.4.37 correct Unarmoured Hero weight to 0
+Version: 0.0.1  

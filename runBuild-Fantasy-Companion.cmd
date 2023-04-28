@@ -9,10 +9,10 @@ REM Build - one location for the version number
 REM Build - validate image paths in worlds db
 REM Build - yaml in https://github.com/mclemente/fvtt-initiative-double-click/blob/main/.github/workflows/main.yml
 
-set VERSION=0.4.37
+set VERSION=0.5.38
 set TGT=Fantasy-Companion.zip
-cd F:\Fantasy-Companion\
-F:
+cd C:\OneDrive\Resources\code-repos\Fantasy-Companion\
+C:
 
 :START
 cls
