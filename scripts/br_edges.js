@@ -1,5 +1,6 @@
 const groupName = "Fantasy-Companion";
 const edgesGroupName = "Edges";
+const starIcon = "☆ ";
 
 export const edges = [
   //

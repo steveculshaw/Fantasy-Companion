@@ -88,18 +88,6 @@ export const ppcommon = [
     selector_value: "power",
     group: groupNamePP
   },
-  // ----------------------
-  // Generic Power Modifiers
-  // ... is Adaptable Caster from Pathfinder?
-  // {
-  //   id: "ADAPTABLECASTER1",
-  //   name: "Adaptable Caster (+1)",
-  //   button_name: "Adaptable Caster (+1)",
-  //   shotsUsed: "+1",
-  //   selector_type: "item_type",
-  //   selector_value: "power",
-  //   group: groupNameGenericPModifiers
-  // },
   {
     id: "ARMORPIERCING1",
     name: "Armor Piercing 2 (+1)",
@@ -227,19 +215,3 @@ export const ppcommon = [
     group: groupNamePModifiers
   }
 ];
-
-// {
-//   "id": "SMCMINDRIDER2",
-//     "name": "Mind Rider 2",
-//       "button_name": "Mind Rider 2",
-//         "shotsUsed": "+1",
-//           "and_selector": [{
-//             "selector_type": "item_type",
-//             "selector_value": "power"
-//           }, {
-//             "selector_type": "item_description_includes",
-//             "selector_value": "Mind Rider"
-//           }
-//           ],
-//             "group": "Summon Modifiers"
-// }

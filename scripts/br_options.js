@@ -1,4 +1,5 @@
 const groupName = "Fantasy-Companion";
+const starIcon = "☆ ";
 
 export const options = [
   {

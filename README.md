@@ -18,6 +18,8 @@ Amend version in ...
 
 ## Changes
 
+Version: 0.5.41 General resync of files
+
 Version: 0.5.40 Add Mystic Powers (Paladin) with standard powers, add icon for AB (Summoner)
 
 Version: 0.5.39 Add missing AB (Druid), update AB (Cleric) with mandatory powers, add an Unarmed d6 attack
