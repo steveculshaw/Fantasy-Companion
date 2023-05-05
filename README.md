@@ -18,6 +18,8 @@ Amend version in ...
 
 ## Changes
 
+Version: 0.5.42 Pull in graphics from smc-assets folder
+
 Version: 0.5.41 General resync of files
 
 Version: 0.5.40 Add Mystic Powers (Paladin) with standard powers, add icon for AB (Summoner)

@@ -1,77 +1,77 @@
 {
-  "id": "Fantasy-Companion",
-  "title": "Fantasy-Companion",
-  "description": "A module containing personal Fantasy-Companion compendium as of v1.5",
-  "version": "0.5.41",
-  "packs": [
-    {
-      "name": "fantasy-companion-edges",
-      "label": "Edges",
-      "path": "packs/fantasy-companion-edges.db",
-      "private": false,
-      "type": "Item",
-      "system": "swade",
-      "flags": {}
-    },
-    {
-      "name": "fantasy-companion-hindrances",
-      "label": "Hindrances",
-      "path": "packs/fantasy-companion-hindrances.db",
-      "private": false,
-      "type": "Item",
-      "system": "swade",
-      "flags": {}
-    },
-    {
-      "name": "fantasy-companion-skills",
-      "label": "Skills",
-      "path": "packs/fantasy-companion-skills.db",
-      "private": false,
-      "type": "Item",
-      "system": "swade",
-      "flags": {}
-    },
-    {
-      "name": "fantasy-companion-powers",
-      "label": "Powers",
-      "path": "packs/fantasy-companion-powers.db",
-      "private": false,
-      "type": "Item",
-      "system": "swade",
-      "flags": {}
-    },
-    {
-      "name": "fantasy-companion-equipment",
-      "label": "Equipment",
-      "path": "packs/fantasy-companion-equipment.db",
-      "private": false,
-      "type": "Item",
-      "system": "swade",
-      "flags": {}
-    }
-  ],
   "authors": [
     {
-      "name": "Rick",
       "email": "test@gmail.com",
-      "url": "www.dummy.com",
-      "flags": {}
+      "flags": {},
+      "name": "Rick",
+      "url": "www.dummy.com"
     },
     {
-      "name": "Steve",
       "email": "test@gmail.com",
-      "url": "www.dummy.com",
-      "flags": {}
+      "flags": {},
+      "name": "Steve",
+      "url": "www.dummy.com"
     }
   ],
   "compatibility": {
     "minimum": "10",
     "verified": "10"
   },
+  "description": "A module containing personal Fantasy-Companion compendium as of v1.5",
+  "download": "https://raw.githubusercontent.com/steveculshaw/Fantasy-Companion/master/Fantasy-Companion.zip",
   "esmodules": [
     "scripts/init.js"
   ],
-  "url": "https://github.com/steveculshaw/Fantasy-Companion",
+  "id": "Fantasy-Companion",
   "manifest": "https://raw.githubusercontent.com/steveculshaw/Fantasy-Companion/master/module.json",
-  "download": "https://raw.githubusercontent.com/steveculshaw/Fantasy-Companion/master/Fantasy-Companion.zip"
+  "packs": [
+    {
+      "flags": {},
+      "label": "Edges",
+      "name": "fantasy-companion-edges",
+      "path": "packs/fantasy-companion-edges.db",
+      "private": false,
+      "system": "swade",
+      "type": "Item"
+    },
+    {
+      "flags": {},
+      "label": "Hindrances",
+      "name": "fantasy-companion-hindrances",
+      "path": "packs/fantasy-companion-hindrances.db",
+      "private": false,
+      "system": "swade",
+      "type": "Item"
+    },
+    {
+      "flags": {},
+      "label": "Skills",
+      "name": "fantasy-companion-skills",
+      "path": "packs/fantasy-companion-skills.db",
+      "private": false,
+      "system": "swade",
+      "type": "Item"
+    },
+    {
+      "flags": {},
+      "label": "Powers",
+      "name": "fantasy-companion-powers",
+      "path": "packs/fantasy-companion-powers.db",
+      "private": false,
+      "system": "swade",
+      "type": "Item"
+    },
+    {
+      "flags": {},
+      "label": "Equipment",
+      "name": "fantasy-companion-equipment",
+      "path": "packs/fantasy-companion-equipment.db",
+      "private": false,
+      "system": "swade",
+      "type": "Item"
+    }
+  ],
+  "title": "Fantasy-Companion",
+  "url": "https://github.com/steveculshaw/Fantasy-Companion",
+  "version": "0.5.42"
 }
