@@ -4,7 +4,9 @@
 
 Created by Rick from the SWADE Fantasy Companion v1.3
 
-Updating to v1.5 values
+Updating to some of the v1.6 values, e.g. Boost/Lower Trait is 3 Power Points
+
+Re-install using ... <https://raw.githubusercontent.com/steveculshaw/Fantasy-Companion/master/module.json>
 
 ## Version update process
 
@@ -17,6 +19,8 @@ Amend version in ...
 * runBuild-Fantasy-Companion.cmd
 
 ## Changes
+
+Version: 0.5.44 Reinstall after problem
 
 Version: 0.5.43 Pull in rest of smc-assets into an unsorted folder
 
