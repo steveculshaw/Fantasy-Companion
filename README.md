@@ -18,6 +18,8 @@ Amend version in ...
 
 ## Changes
 
+Version: 0.5.43 Pull in rest of smc-assets into an unsorted folder
+
 Version: 0.5.42 Pull in graphics from smc-assets folder
 
 Version: 0.5.41 General resync of files
