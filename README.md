@@ -20,6 +20,8 @@ Amend version in ...
 
 ## Changes
 
+Version: 0.5.45 All images into FC assets; players, macros
+
 Version: 0.5.44 Reinstall after problem
 
 Version: 0.5.43 Pull in rest of smc-assets into an unsorted folder
