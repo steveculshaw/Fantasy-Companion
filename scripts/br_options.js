@@ -1,4 +1,5 @@
-const groupName = "Fantasy-Companion";
+// const groupName = "Attack options";
+const groupName = "BRSW.AttackOption";
 const starIcon = "☆ ";
 
 export const options = [

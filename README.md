@@ -20,6 +20,8 @@ Amend version in ...
 
 ## Changes
 
+Version: 0.5.47 Desperate attacks into "BRSW.AttackOption"
+
 Version: 0.5.46 Sync back from new FVTT on PC2023
 
 Version: 0.5.45 All images into FC assets; players, macros
