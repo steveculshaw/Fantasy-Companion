@@ -16,15 +16,7 @@ C:
 
 :START
 cls
-echo.
 echo building Fantasy Companion version: %VERSION%
-
-REM echo.
-REM echo ================================================================
-REM echo   DID I UPDATE THE VERSION IN MODULE.JSON !!!!
-REM echo.
-REM echo   also update the readme.md with version for ease of checking !
-REM echo ================================================================
 
 :ZIPSTEPS
 echo.
