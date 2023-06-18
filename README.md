@@ -20,6 +20,8 @@ Amend version in ...
 
 ## Changes
 
+Version: 0.6.48 Start on summon animal power modifiers
+
 Version: 0.5.47 Desperate attacks into "BRSW.AttackOption"
 
 Version: 0.5.46 Sync back from new FVTT on PC2023
