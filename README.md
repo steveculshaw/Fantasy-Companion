@@ -20,6 +20,10 @@ Amend version in ...
 
 ## Changes
 
+Version: 0.9.51 Try to fix the issue with the new pack LevelDB files ... !!! BUT WILL HAVE LOST ALL THE RECENT WORK !!!
+
+Version: 0.8.50 Remove the pack db files, make pack binary with the .gitattributes file, and HOPE IT WORKS !!!
+
 Version: 0.7.49 Update to Foundry v11 ... as to whether the compendiums, BR2 world actions, etc. work???
 
 Version: 0.6.48 Start on summon animal power modifiers
