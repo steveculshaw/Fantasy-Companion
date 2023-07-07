@@ -20,6 +20,8 @@ Amend version in ...
 
 ## Changes
 
+Version: 0.9.53 Hopefully new LevelDB binary files 
+
 Version: 0.9.52 Restore the new monster images
 
 Version: 0.9.51 Try to fix the issue with the new pack LevelDB files ... !!! BUT WILL HAVE LOST ALL THE RECENT WORK !!!
