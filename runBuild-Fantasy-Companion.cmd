@@ -4,7 +4,7 @@ REM =================================================
 REM Run Script Fantasy Compendium BUILD {rsfcbuild}
 REM =================================================
 
-set VERSION=0.9.51
+set VERSION=0.9.52
 set TGT=Fantasy-Companion.zip
 cd C:\OneDrive\Resources\code-repos\Fantasy-Companion\
 C:

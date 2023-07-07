@@ -1,0 +1,36 @@
+New ...
+  Blessing S 
+  Conjure Item N
+  Curse S (minimal)
+  Locate N
+  Lock/Unlock N
+  Mystic Intervention L (minimal)
+  Planar Binding V (minimal)
+  Plane Shift V (minimal)
+  Sanctuary N
+  Scrying S (minimal)
+  Summon Animal N
+  Summon Monster N
+  Summon Undead N
+  Time Stop H (minimal)
+  Wish L (minimal)
+
+Changed ...
+
+  Arcane Protection N
+  Barrier S
+  Confusion N
+  Detect/Conceal Arcana N
+  Dispel N
+  Divination S
+  Elemental Manipulation N
+  Empathy N
+  Intangibility V
+  Object Reading S
+  Protection N
+  Relief N
+  Shape Change N
+  Summon Ally N
+  Telekinesis S
+  Teleport N  (not marked as changed ... BUT IT IS)
+  Zombie V

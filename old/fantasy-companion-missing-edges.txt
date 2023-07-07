@@ -1,0 +1,93 @@
+===========================
+==== !!! NOT DONE !!! =====
+===========================
+Combat edges ...
+Charge S
+Defender S
+Dirty Fighter S
+  Really Dirty Fighter S
+Double Shot S
+  Improved Double Shot H
+Martial Flexibility S
+Missile Deflection H
+Opportunistic V
+Roar S
+Scorch S
+Sneak Attack S
+  Improved Sneak Attack V
+Stunning Blow S
+Take the Hit S
+Trick Shot S
+Uncanny Reflexes V
+Wing Gust S
+
+Power Edges ...
+  Master Artificer H
+Battle Magic V
+Epic Mastery V
+Favoured Power S
+Mystic Powers S
+
+Professional Edges ...
+Scout S
+Trap Sense S
+Troubadour S
+
+Social Edges ...
+Deceptive S
+
+Legendary Edges ...
+Home Ground L
+Relic L
+Unstoppable L
+Warband L
+
+Remove ... are there any?
+Wizard in Power section?
+
+==== DONE =====
+Amended ...
+  Arcane Resistance
+    Improved Arcane Resistance
+  Artificer
+    Master Artificer
+
+Background edges ...
+  Arcane Background N ... see chapter 4, p.89
+    Alchemist
+    Bard
+    etc. to 
+    Wizard
+  Chosen N
+  Favoured Enemy N
+  Favoured Terrain N
+  Fey Blood N
+  Heirloom N
+
+Combat edges ...
+  Close Fighting N
+    Improved Close Fighting V
+  Formation Fighter N
+    Shield Wall N
+  Savagery N
+  Sunder N
+
+Power Edges ...
+  Blood Magic N
+  Familiar N
+  Silent Caster N
+  Transfer N
+
+Professional Edges ...
+  Born in the Saddle N
+  Explorer N
+  Knight N
+  Mount N
+  Poisoner N
+  Stonecunning N
+  Treasure Hunter N
+
+Weird Edges ...
+  Aura of Courage N
+  Beast Talker N
+  Rapid Change N
