@@ -213,5 +213,23 @@ export const ppcommon = [
       selector_value: "Mind Rider",
     }],
     group: groupNamePModifiers
+  },
+  {
+    id: "9Bolt2Strong",
+    name: "Bolt Strong",
+    button_name: "Damage (+2)",
+    shotsUsed: "+2",
+    dmgOverride: "3d6x",
+    and_selector: [
+      {
+        selector_type: "item_type",
+        selector_value: "power"
+      },
+      {
+        selector_type: "item_name",
+        selector_value: "Bolt"
+      }
+    ],
+    group: "Bolt"
   }
 ];
