@@ -215,40 +215,6 @@ export const ppcommon = [
     group: groupNamePModifiers
   },
   {
-    id: "9Havoc2AreaEffect",
-    name: "Area LBT",
-    button_name: "Area LBT (+1)",
-    shotsUsed: "+1",
-    and_selector: [
-      {
-        selector_type: "item_type",
-        selector_value: "power"
-      },
-      {
-        selector_type: "item_name",
-        selector_value: "Havoc"
-      }
-    ],
-    group: "Havoc"
-  },
-  {
-    id: "9Havoc2GreaterHavoc",
-    name: "Greater Havoc",
-    button_name: "☆ Grt.Havoc (+2)",
-    shotsUsed: "+2",
-    and_selector: [
-      {
-        selector_type: "item_type",
-        selector_value: "power"
-      },
-      {
-        selector_type: "item_name",
-        selector_value: "Havoc"
-      }
-    ],
-    group: "Havoc"
-  },
-  {
     id: "9Burst2GreaterBurst",
     name: "Greater Burst",
     button_name: "☆ Grt.Burst (+4)",
@@ -300,23 +266,5 @@ export const ppcommon = [
       }
     ],
     group: "Burst"
-  },
-  {
-    id: "9Bolt2Strong",
-    name: "Bolt Strong",
-    button_name: "Damage (+2)",
-    shotsUsed: "+2",
-    dmgOverride: "3d6x",
-    and_selector: [
-      {
-        selector_type: "item_type",
-        selector_value: "power"
-      },
-      {
-        selector_type: "item_name",
-        selector_value: "Bolt"
-      }
-    ],
-    group: "Bolt"
   }
 ];
