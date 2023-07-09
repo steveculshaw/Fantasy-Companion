@@ -215,6 +215,59 @@ export const ppcommon = [
     group: groupNamePModifiers
   },
   {
+    id: "9Burst2GreaterBurst",
+    name: "Greater Burst",
+    button_name: "☆ Grt.Burst (+4)",
+    shotsUsed: "+4",
+    dmgOverride: "4d6x",
+    and_selector: [
+      {
+        selector_type: "item_type",
+        selector_value: "power"
+      },
+      {
+        selector_type: "item_name",
+        selector_value: "Burst"
+      }
+    ],
+    group: "Burst"
+  },
+  {
+    id: "9Burst2Push",
+    name: "Burst Push",
+    button_name: "Push (+1)",
+    shotsUsed: "+1",
+    and_selector: [
+      {
+        selector_type: "item_type",
+        selector_value: "power"
+      },
+      {
+        selector_type: "item_name",
+        selector_value: "Burst"
+      }
+    ],
+    group: "Burst"
+  },
+  {
+    id: "9Burst2Strong",
+    name: "Burst Strong",
+    button_name: "Damage (+2)",
+    shotsUsed: "+2",
+    dmgOverride: "3d6x",
+    and_selector: [
+      {
+        selector_type: "item_type",
+        selector_value: "power"
+      },
+      {
+        selector_type: "item_name",
+        selector_value: "Burst"
+      }
+    ],
+    group: "Burst"
+  },
+  {
     id: "9Bolt2Strong",
     name: "Bolt Strong",
     button_name: "Damage (+2)",
