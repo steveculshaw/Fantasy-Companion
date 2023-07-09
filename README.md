@@ -20,7 +20,9 @@ Amend version in ...
 
 ## Changes
 
-Version: 0.9.53 Hopefully new LevelDB binary files 
+Version: 0.9.54 Bolt 3d6 damage for 2 PP's to script. DO NOT KNOW if LevelDB files working
+
+Version: 0.9.53 Hopefully new LevelDB binary files
 
 Version: 0.9.52 Restore the new monster images
 
