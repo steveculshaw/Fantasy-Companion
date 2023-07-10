@@ -38,5 +38,47 @@ export const options = [
     }
     ],
     group: groupName
+  },
+  {
+    id: "6Sweep",
+    name: "Sweep",
+    button_name: "Sweep",
+    skillMod: "-2",
+    // extra_text: "<p style='color: blue;' > You may use the sweep action once per turn hitting all targets in reach at -2 to hit. </p>",
+    and_selector: [
+      {
+        or_selector: [
+          {
+            selector_type: "actor_has_effect",
+            selector_value: "Sweep, Edge"
+          },
+          {
+            selector_type: "actor_has_edge",
+            selector_value: "Sweep"
+          }]
+      },
+      {
+        selector_type: "item_type",
+        selector_value: "weapon"
+      },
+      {
+        selector_type: "skill",
+        selector_value: "Fighting"
+      },
+      {
+        not_selector: [
+          {
+            selector_type: "actor_has_effect",
+            selector_value: "Improved_Sweep, Edge"
+          }]
+      },
+      {
+        not_selector: [
+          {
+            selector_type: "actor_has_edge",
+            selector_value: "Improved Sweep"
+          }]
+      }],
+    group: groupName
   }
 ];
