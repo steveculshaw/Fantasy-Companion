@@ -1,8 +1,21 @@
 const groupName = "Savage Pathfinder";
 const groupNamePP = "Power Points";
-const groupNamePModifiers = "Power Modifiers";
+const groupNamePModifiers = "Power Modifiers - ";
 const groupNameGenericPModifiers = "Power Modifiers - Generic";
 const starIcon = "☆ ";
+const groupArcaneProtectionName = "Power Modifiers - Arcane Protection";
+const groupBeastFriendName = "Power Modifiers - Beast Friend";
+const groupBoltName = "Power Modifiers - Bolt";
+const groupBoostLowerTraitsName = "Power Modifiers - Boost/Lower Traits";
+const groupBurstName = "Power Modifiers - Burst";
+const groupConfusionName = "Power Modifiers - Confusion";
+const groupEntangleName = "Power Modifiers - Entangle";
+const groupEnvironmentalProtection = "Power Modifiers - Environmental Protection";
+const groupHealingName = "Power Modifiers - Healing";
+const groupProtectionName = "Power Modifiers - Protection";
+const groupReliefName = "Power Modifiers - Relief";
+const groupSanctuaryName = "Power Modifiers - Sanctuary";
+const groupStunName = "Power Modifiers - Stun";
 
 export const ppnovice = [
   // ----------------------
@@ -16,7 +29,51 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Arcane Protection" }
     ],
-    group: "Arcane Protection Modifiers"
+    group: groupArcaneProtectionName
+  },
+  {
+    id: "POWERARCANEPROTECTIONMODADDITIONALRECIPIENTS",
+    name: "Additional Recipients +1",
+    button_name: "+1",
+    shotsUsed: "+1",
+    and_selector: [
+      { selector_type: "item_type", selector_value: "power" },
+      { selector_type: "item_name", selector_value: "Arcane Protection" }
+    ],
+    group: groupArcaneProtectionName
+  },
+  {
+    id: "POWERARCANEPROTECTIONMODADDITIONALRECIPIENTS2",
+    name: "Additional Recipients +2",
+    button_name: "+2",
+    shotsUsed: "+2",
+    and_selector: [
+      { selector_type: "item_type", selector_value: "power" },
+      { selector_type: "item_name", selector_value: "Arcane Protection" }
+    ],
+    group: groupArcaneProtectionName
+  },
+  {
+    id: "POWERARCANEPROTECTIONMODADDITIONALRECIPIENTS3",
+    name: "Additional Recipients +3",
+    button_name: "+3",
+    shotsUsed: "+3",
+    and_selector: [
+      { selector_type: "item_type", selector_value: "power" },
+      { selector_type: "item_name", selector_value: "Arcane Protection" }
+    ],
+    group: groupArcaneProtectionName
+  },
+  {
+    id: "POWERARCANEPROTECTIONMODADDITIONALRECIPIENTS4",
+    name: "Additional Recipients +4",
+    button_name: "+4",
+    shotsUsed: "+4",
+    and_selector: [
+      { selector_type: "item_type", selector_value: "power" },
+      { selector_type: "item_name", selector_value: "Arcane Protection" }
+    ],
+    group: groupArcaneProtectionName
   },
 
   // ----------------------
@@ -30,7 +87,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Beast Friend" }
     ],
-    group: "Beast Friend Modifiers"
+    group: groupBeastFriendName
   },
   {
     id: "POWERBEASTFRIENDMODDURATION",
@@ -41,7 +98,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Beast Friend" }
     ],
-    group: "Beast Friend Modifiers"
+    group: groupBeastFriendName
   },
   {
     id: "POWERBEASTFRIENDMODMINDRIDER",
@@ -52,7 +109,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Beast Friend" }
     ],
-    group: "Beast Friend Modifiers"
+    group: groupBeastFriendName
   },
 
   // ----------------------
@@ -66,7 +123,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Blind" }
     ],
-    group: "Blind Modifiers"
+    group: "Modifiers - Blind "
   },
   // ----------------------
   {
@@ -78,7 +135,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Blind" }
     ],
-    group: "Area of Effect"
+    group: "Modifiers - Blind Area of Effect MBT "
   },
   {
     id: "POWERBLINDMODLARGE",
@@ -89,7 +146,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Blind" }
     ],
-    group: "Area of Effect"
+    group: "Modifiers - Blind Area of Effect LBT "
   },
 
   // ----------------------
@@ -104,7 +161,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Bolt" }
     ],
-    group: "Bolt Modifiers"
+    group: groupBoltName
   },
   {
     id: "POWERBOLTMODGREATERBOLT",
@@ -116,7 +173,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Bolt" }
     ],
-    group: "Bolt Modifiers"
+    group: groupBoltName
   },
   {
     id: "POWERBOLTMODRATEOFFIRE",
@@ -128,7 +185,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Bolt" }
     ],
-    group: "Bolt Modifiers"
+    group: groupBoltName
   },
   {
     id: "POWERBOLTMODDISINTEGRATE",
@@ -139,7 +196,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Bolt" }
     ],
-    group: "Bolt Modifiers"
+    group: groupBoltName
   },
 
   // ----------------------
@@ -153,7 +210,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Boost/Lower Trait" }
     ],
-    group: "Boost/Lower Trait Modifiers"
+    group: groupBoostLowerTraitsName
   },
   {
     id: "POWERBOOSTLOWERTRAITMOGREATER",
@@ -164,7 +221,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Boost/Lower Trait" }
     ],
-    group: "Boost/Lower Trait Modifiers"
+    group: groupBoostLowerTraitsName
   },
   // ----------------------
   {
@@ -176,7 +233,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Boost/Lower Trait" }
     ],
-    group: "Additional Recipients"
+    group: groupBoostLowerTraitsName
   },
   {
     id: "POWERBOOSTLOWERTRAITMODADDITIONALRECIPIENTS2",
@@ -187,7 +244,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Boost/Lower Trait" }
     ],
-    group: "Additional Recipients"
+    group: groupBoostLowerTraitsName
   },
   {
     id: "POWERBOOSTLOWERTRAITMODADDITIONALRECIPIENTS3",
@@ -198,7 +255,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Boost/Lower Trait" }
     ],
-    group: "Additional Recipients"
+    group: groupBoostLowerTraitsName
   },
   {
     id: "POWERBOOSTLOWERTRAITMODADDITIONALRECIPIENTS4",
@@ -209,62 +266,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Boost/Lower Trait" }
     ],
-    group: "Additional Recipients"
-  },
-  {
-    id: "POWERBOOSTLOWERTRAITMODADDITIONALRECIPIENTS5",
-    name: "Additional Recipients +5",
-    button_name: "+5",
-    shotsUsed: "+5",
-    and_selector: [
-      { selector_type: "item_type", selector_value: "power" },
-      { selector_type: "item_name", selector_value: "Boost/Lower Trait" }
-    ],
-    group: "Additional Recipients"
-  },
-  {
-    id: "POWERBOOSTLOWERTRAITMODADDITIONALRECIPIENTS6",
-    name: "Additional Recipients +6",
-    button_name: "+6",
-    shotsUsed: "+6",
-    and_selector: [
-      { selector_type: "item_type", selector_value: "power" },
-      { selector_type: "item_name", selector_value: "Boost/Lower Trait" }
-    ],
-    group: "Additional Recipients"
-  },
-  {
-    id: "POWERBOOSTLOWERTRAITMODADDITIONALRECIPIENTS7",
-    name: "Additional Recipients +7",
-    button_name: "+7",
-    shotsUsed: "+7",
-    and_selector: [
-      { selector_type: "item_type", selector_value: "power" },
-      { selector_type: "item_name", selector_value: "Boost/Lower Trait" }
-    ],
-    group: "Additional Recipients"
-  },
-  {
-    id: "POWERBOOSTLOWERTRAITMODADDITIONALRECIPIENTS8",
-    name: "Additional Recipients +8",
-    button_name: "+8",
-    shotsUsed: "+8",
-    and_selector: [
-      { selector_type: "item_type", selector_value: "power" },
-      { selector_type: "item_name", selector_value: "Boost/Lower Trait" }
-    ],
-    group: "Additional Recipients"
-  },
-  {
-    id: "POWERBOOSTLOWERTRAITMODADDITIONALRECIPIENTS9",
-    name: "Additional Recipients +9",
-    button_name: "+9",
-    shotsUsed: "+9",
-    and_selector: [
-      { selector_type: "item_type", selector_value: "power" },
-      { selector_type: "item_name", selector_value: "Boost/Lower Trait" }
-    ],
-    group: "Additional Recipients"
+    group: groupBoostLowerTraitsName
   },
 
   // ----------------------
@@ -278,7 +280,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Burrow" }
     ],
-    group: "Burrow Modifiers"
+    group: "Burrow Modifiers - "
   },
   // ----------------------
   {
@@ -381,7 +383,6 @@ export const ppnovice = [
     group: "Additional Recipients"
   },
 
-
   // ----------------------
   // POWER BURST
   {
@@ -394,7 +395,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Burst" }
     ],
-    group: "Burst Modifiers"
+    group: groupBurstName
   },
   {
     id: "POWERBURSTPUSH",
@@ -405,7 +406,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Burst" }
     ],
-    group: "Burst Modifiers"
+    group: groupBurstName
   },
   {
     id: "POWERBURSTMODGREATERBURST",
@@ -417,7 +418,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Burst" }
     ],
-    group: "Burst Modifiers"
+    group: groupBurstName
   },
 
   // ----------------------
@@ -431,7 +432,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Confusion" }
     ],
-    group: "Confusion Modifiers"
+    group: groupConfusionName
   },
   {
     id: "POWERCONFUSIONMODSMALL",
@@ -442,7 +443,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Confusion" }
     ],
-    group: "Area of Effect"
+    group: groupConfusionName
   },
   {
     id: "POWERCONFUSIONMODLARGE",
@@ -453,7 +454,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Confusion" }
     ],
-    group: "Area of Effect"
+    group: groupConfusionName
   },
 
   // ----------------------
@@ -467,7 +468,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Conjure Item" }
     ],
-    group: "Conjure Item Modifiers"
+    group: "Conjure Item Modifiers - "
   },
   // ----------------------    
   {
@@ -681,7 +682,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Darksight" }
     ],
-    group: "Darksight Modifiers"
+    group: "Darksight Modifiers - "
   },
   // ----------------------
   {
@@ -897,7 +898,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Detect/Conceal Arcana" }
     ],
-    group: "Detect/Conceal Arcana Modifiers"
+    group: "Detect/Conceal Arcana Modifiers - "
   },
   {
     id: "POWERDETECTARCANAMODIDENTIFY",
@@ -908,7 +909,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Detect/Conceal Arcana" }
     ],
-    group: "Detect/Conceal Arcana Modifiers"
+    group: "Detect/Conceal Arcana Modifiers - "
   },
   {
     id: "POWERDETECTARCANAMODSTRONG",
@@ -919,7 +920,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Detect/Conceal Arcana" }
     ],
-    group: "Detect/Conceal Arcana Modifiers"
+    group: "Detect/Conceal Arcana Modifiers - "
   },
   {
     id: "POWERDETECTARCANAMODMEDIUM",
@@ -1055,7 +1056,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Dispel" }
     ],
-    group: "Dispel Modifiers"
+    group: "Dispel Modifiers - "
   },
   {
     id: "POWERDISPELMODDISENCHANT",
@@ -1066,7 +1067,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Dispel" }
     ],
-    group: "Dispel Modifiers"
+    group: "Dispel Modifiers - "
   },
   {
     id: "POWERDISPELMODMULTIPLEPOWERS",
@@ -1077,7 +1078,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Dispel" }
     ],
-    group: "Dispel Modifiers"
+    group: "Dispel Modifiers - "
   },
   {
     id: "POWERDISPELMODREMOVECURSE",
@@ -1088,7 +1089,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Dispel" }
     ],
-    group: "Dispel Modifiers"
+    group: "Dispel Modifiers - "
   },
   // ----------------------
   // POWER Dispel    
@@ -1137,7 +1138,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Elemental Manipulation" }
     ],
-    group: "Elemental Manipulation Modifiers"
+    group: "Elemental Manipulation Modifiers - "
   },
   {
     id: "POWERELEMENTALMANIPULATIONMODWEATHER",
@@ -1148,7 +1149,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Elemental Manipulation" }
     ],
-    group: "Elemental Manipulation Modifiers"
+    group: "Elemental Manipulation Modifiers - "
   },
 
   // POWER Empathy
@@ -1161,7 +1162,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Empathy" }
     ],
-    group: "Empathy Modifiers"
+    group: "Empathy Modifiers - "
   },
   {
     id: "POWEREMPATHYMODDURATION",
@@ -1172,7 +1173,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Empathy" }
     ],
-    group: "Empathy Modifiers"
+    group: "Empathy Modifiers - "
   },
   {
     id: "POWEREMPATHYMODTRUTH",
@@ -1183,7 +1184,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Empathy" }
     ],
-    group: "Empathy Modifiers"
+    group: "Empathy Modifiers - "
   },
   // ----------------------
   {
@@ -1297,7 +1298,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Entangle" }
     ],
-    group: "Entangle Modifiers"
+    group: groupEntangleName
   },
   {
     id: "POWERENTANGLEMODTOUGH",
@@ -1308,7 +1309,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Entangle" }
     ],
-    group: "Entangle Modifiers"
+    group: groupEntangleName
   },
   {
     id: "POWERENTANGLEMODDEADLY",
@@ -1319,7 +1320,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Entangle" }
     ],
-    group: "Entangle Modifiers"
+    group: groupEntangleName
   },
   {
     id: "POWERENTANGLEMODMEDIUM",
@@ -1330,7 +1331,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Entangle" }
     ],
-    group: "Area of Effect"
+    group: groupEntangleName
   },
   {
     id: "POWERENTANGLEMODLARGE",
@@ -1341,7 +1342,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Entangle" }
     ],
-    group: "Area of Effect"
+    group: groupEntangleName
   },
 
   // ----------------------
@@ -1355,7 +1356,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Environmental Protection" }
     ],
-    group: "Environmental Protection Modifiers"
+    group: groupEnvironmentalProtection
   },
   {
     id: "POWERENVPROTECTIONMODPLANAR",
@@ -1366,7 +1367,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Environmental Protection" }
     ],
-    group: "Environmental Protection Modifiers"
+    group: groupEnvironmentalProtection
   },
   // ----------------------
   {
@@ -1378,7 +1379,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Environmental Protection" }
     ],
-    group: "Additional Recipients"
+    group: groupEnvironmentalProtection
   },
   {
     id: "POWERENVPROTECTIONMODADDITIONALRECIPIENTS2",
@@ -1389,7 +1390,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Environmental Protection" }
     ],
-    group: "Additional Recipients"
+    group: groupEnvironmentalProtection
   },
   {
     id: "POWERENVPROTECTIONMODADDITIONALRECIPIENTS3",
@@ -1400,7 +1401,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Environmental Protection" }
     ],
-    group: "Additional Recipients"
+    group: groupEnvironmentalProtection
   },
   {
     id: "POWERENVPROTECTIONMODADDITIONALRECIPIENTS4",
@@ -1411,62 +1412,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Environmental Protection" }
     ],
-    group: "Additional Recipients"
-  },
-  {
-    id: "POWERENVPROTECTIONMODADDITIONALRECIPIENTS5",
-    name: "Additional Recipients +5",
-    button_name: "+5",
-    shotsUsed: "+5",
-    and_selector: [
-      { selector_type: "item_type", selector_value: "power" },
-      { selector_type: "item_name", selector_value: "Environmental Protection" }
-    ],
-    group: "Additional Recipients"
-  },
-  {
-    id: "POWERENVPROTECTIONMODADDITIONALRECIPIENTS6",
-    name: "Additional Recipients +6",
-    button_name: "+6",
-    shotsUsed: "+6",
-    and_selector: [
-      { selector_type: "item_type", selector_value: "power" },
-      { selector_type: "item_name", selector_value: "Environmental Protection" }
-    ],
-    group: "Additional Recipients"
-  },
-  {
-    id: "POWERENVPROTECTIONMODADDITIONALRECIPIENTS7",
-    name: "Additional Recipients +7",
-    button_name: "+7",
-    shotsUsed: "+7",
-    and_selector: [
-      { selector_type: "item_type", selector_value: "power" },
-      { selector_type: "item_name", selector_value: "Environmental Protection" }
-    ],
-    group: "Additional Recipients"
-  },
-  {
-    id: "POWERENVPROTECTIONMODADDITIONALRECIPIENTS8",
-    name: "Additional Recipients +8",
-    button_name: "+8",
-    shotsUsed: "+8",
-    and_selector: [
-      { selector_type: "item_type", selector_value: "power" },
-      { selector_type: "item_name", selector_value: "Environmental Protection" }
-    ],
-    group: "Additional Recipients"
-  },
-  {
-    id: "POWERENVPROTECTIONMODADDITIONALRECIPIENTS9",
-    name: "Additional Recipients +9",
-    button_name: "+9",
-    shotsUsed: "+9",
-    and_selector: [
-      { selector_type: "item_type", selector_value: "power" },
-      { selector_type: "item_name", selector_value: "Environmental Protection" }
-    ],
-    group: "Additional Recipients"
+    group: groupEnvironmentalProtection
   },
 
   // ----------------------
@@ -1480,7 +1426,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Fear" }
     ],
-    group: "Fear Modifiers"
+    group: "Fear Modifiers - "
   },
   {
     id: "POWERFEARMODSMALLMEDIUM",
@@ -1491,7 +1437,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Fear" }
     ],
-    group: "Fear Modifiers"
+    group: "Fear Modifiers - "
   },
   {
     id: "POWERFEARMODSMALLLARGE",
@@ -1502,7 +1448,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Fear" }
     ],
-    group: "Fear Modifiers"
+    group: "Fear Modifiers - "
   },
 
   // ----------------------
@@ -1516,7 +1462,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Havoc" }
     ],
-    group: "Havoc Modifiers"
+    group: "Havoc Modifiers - "
   },
   {
     id: "POWERHAVOCMODAREA",
@@ -1527,7 +1473,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Havoc" }
     ],
-    group: "Havoc Modifiers"
+    group: "Havoc Modifiers - "
   },
 
   // ----------------------
@@ -1541,7 +1487,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Healing" }
     ],
-    group: "Healing Modifiers"
+    group: groupHealingName
   },
   {
     id: "POWERHEALINGMODMASSHEALINGMEDIUMBLAST",
@@ -1552,7 +1498,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Healing" }
     ],
-    group: "Healing Modifiers"
+    group: groupHealingName
   },
   {
     id: "POWERHEALINGMODMASSHEALINGLARGEBLAST",
@@ -1563,7 +1509,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Healing" }
     ],
-    group: "Healing Modifiers"
+    group: groupHealingName
   },
   {
     id: "POWERHEALINGMODCRIPPLINGINJURIES",
@@ -1574,7 +1520,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Healing" }
     ],
-    group: "Healing Modifiers"
+    group: groupHealingName
   },
   {
     id: "POWERHEALINGMODNEUTRALIZEPOISON",
@@ -1585,7 +1531,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Healing" }
     ],
-    group: "Healing Modifiers"
+    group: groupHealingName
   },
 
   // ----------------------
@@ -1599,7 +1545,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Illusion" }
     ],
-    group: "Illusion Modifiers"
+    group: "Illusion Modifiers - "
   },
   {
     id: "POWERILLUSIONMODSOUND",
@@ -1610,7 +1556,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Illusion" }
     ],
-    group: "Illusion Modifiers"
+    group: "Illusion Modifiers - "
   },
   {
     id: "POWERILLUSIONMODMOBILITY12",
@@ -1621,7 +1567,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Illusion" }
     ],
-    group: "Illusion Modifiers"
+    group: "Illusion Modifiers - "
   },
   {
     id: "POWERILLUSIONMODMOBILITY24",
@@ -1632,7 +1578,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Illusion" }
     ],
-    group: "Illusion Modifiers"
+    group: "Illusion Modifiers - "
   },
   {
     id: "POWERILLUSIONMODDURATION",
@@ -1643,7 +1589,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Illusion" }
     ],
-    group: "Illusion Modifiers"
+    group: "Illusion Modifiers - "
   },
   {
     id: "POWERILLUSIONMODDEADLY",
@@ -1654,7 +1600,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Illusion" }
     ],
-    group: "Illusion Modifiers"
+    group: "Illusion Modifiers - "
   },
   {
     id: "POWERILLUSIONMODAREA",
@@ -1679,7 +1625,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Light / Darkness" }
     ],
-    group: "Light / Darkness Modifiers"
+    group: "Light / Darkness Modifiers - "
   },
   {
     id: "POWERLIGHTDARKNESSMODTRUEDARKNESS",
@@ -1690,7 +1636,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Light / Darkness" }
     ],
-    group: "Light / Darkness Modifiers"
+    group: "Light / Darkness Modifiers - "
   },
   {
     id: "POWERLIGHTDARKNESSMODAREAEFFECT",
@@ -1701,7 +1647,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Light / Darkness" }
     ],
-    group: "Light / Darkness Modifiers"
+    group: "Light / Darkness Modifiers - "
   },
 
   // ----------------------
@@ -1868,7 +1814,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Protection" }
     ],
-    group: "Protection Modifiers"
+    group: groupProtectionName
   },
   {
     id: "POWERPROTECTIONMODADDITIONALRECIPIENTS",
@@ -1879,7 +1825,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Protection" }
     ],
-    group: "Additional Recipients"
+    group: groupProtectionName
   },
   {
     id: "POWERPROTECTIONMODADDITIONALRECIPIENTS2",
@@ -1890,7 +1836,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Protection" }
     ],
-    group: "Additional Recipients"
+    group: groupProtectionName
   },
   {
     id: "POWERPROTECTIONMODADDITIONALRECIPIENTS3",
@@ -1901,7 +1847,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Protection" }
     ],
-    group: "Additional Recipients"
+    group: groupProtectionName
   },
   {
     id: "POWERPROTECTIONMODADDITIONALRECIPIENTS4",
@@ -1912,62 +1858,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Protection" }
     ],
-    group: "Additional Recipients"
-  },
-  {
-    id: "POWERPROTECTIONMODADDITIONALRECIPIENTS5",
-    name: "Additional Recipients +5",
-    button_name: "+5",
-    shotsUsed: "+5",
-    and_selector: [
-      { selector_type: "item_type", selector_value: "power" },
-      { selector_type: "item_name", selector_value: "Protection" }
-    ],
-    group: "Additional Recipients"
-  },
-  {
-    id: "POWERPROTECTIONMODADDITIONALRECIPIENTS6",
-    name: "Additional Recipients +6",
-    button_name: "+6",
-    shotsUsed: "+6",
-    and_selector: [
-      { selector_type: "item_type", selector_value: "power" },
-      { selector_type: "item_name", selector_value: "Protection" }
-    ],
-    group: "Additional Recipients"
-  },
-  {
-    id: "POWERPROTECTIONMODADDITIONALRECIPIENTS7",
-    name: "Additional Recipients +7",
-    button_name: "+7",
-    shotsUsed: "+7",
-    and_selector: [
-      { selector_type: "item_type", selector_value: "power" },
-      { selector_type: "item_name", selector_value: "Protection" }
-    ],
-    group: "Additional Recipients"
-  },
-  {
-    id: "POWERPROTECTIONMODADDITIONALRECIPIENTS8",
-    name: "Additional Recipients +8",
-    button_name: "+8",
-    shotsUsed: "+8",
-    and_selector: [
-      { selector_type: "item_type", selector_value: "power" },
-      { selector_type: "item_name", selector_value: "Protection" }
-    ],
-    group: "Additional Recipients"
-  },
-  {
-    id: "POWERPROTECTIONMODADDITIONALRECIPIENTS9",
-    name: "Additional Recipients +9",
-    button_name: "+9",
-    shotsUsed: "+9",
-    and_selector: [
-      { selector_type: "item_type", selector_value: "power" },
-      { selector_type: "item_name", selector_value: "Protection" }
-    ],
-    group: "Additional Recipients"
+    group: groupProtectionName
   },
 
   // ----------------------
@@ -1981,7 +1872,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Relief" }
     ],
-    group: "Relief Modifiers"
+    group: groupReliefName
   },
   {
     id: "POWERRELIEFMODSTUNNED",
@@ -1992,7 +1883,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Relief" }
     ],
-    group: "Relief Modifiers"
+    group: groupReliefName
   },
   // ----------------------
   {
@@ -2004,7 +1895,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Relief" }
     ],
-    group: "Additional Recipients"
+    group: groupReliefName
   },
   {
     id: "POWERRELIEFMODADDITIONALRECIPIENTS2",
@@ -2015,7 +1906,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Relief" }
     ],
-    group: "Additional Recipients"
+    group: groupReliefName
   },
   {
     id: "POWERRELIEFMODADDITIONALRECIPIENTS3",
@@ -2026,7 +1917,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Relief" }
     ],
-    group: "Additional Recipients"
+    group: groupReliefName
   },
   {
     id: "POWERRELIEFMODADDITIONALRECIPIENTS4",
@@ -2037,62 +1928,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Relief" }
     ],
-    group: "Additional Recipients"
-  },
-  {
-    id: "POWERRELIEFMODADDITIONALRECIPIENTS5",
-    name: "Additional Recipients +5",
-    button_name: "+5",
-    shotsUsed: "+5",
-    and_selector: [
-      { selector_type: "item_type", selector_value: "power" },
-      { selector_type: "item_name", selector_value: "Relief" }
-    ],
-    group: "Additional Recipients"
-  },
-  {
-    id: "POWERRELIEFMODADDITIONALRECIPIENTS6",
-    name: "Additional Recipients +6",
-    button_name: "+6",
-    shotsUsed: "+6",
-    and_selector: [
-      { selector_type: "item_type", selector_value: "power" },
-      { selector_type: "item_name", selector_value: "Relief" }
-    ],
-    group: "Additional Recipients"
-  },
-  {
-    id: "POWERRELIEFMODADDITIONALRECIPIENTS7",
-    name: "Additional Recipients +7",
-    button_name: "+7",
-    shotsUsed: "+7",
-    and_selector: [
-      { selector_type: "item_type", selector_value: "power" },
-      { selector_type: "item_name", selector_value: "Relief" }
-    ],
-    group: "Additional Recipients"
-  },
-  {
-    id: "POWERRELIEFMODADDITIONALRECIPIENTS8",
-    name: "Additional Recipients +8",
-    button_name: "+8",
-    shotsUsed: "+8",
-    and_selector: [
-      { selector_type: "item_type", selector_value: "power" },
-      { selector_type: "item_name", selector_value: "Relief" }
-    ],
-    group: "Additional Recipients"
-  },
-  {
-    id: "POWERRELIEFMODADDITIONALRECIPIENTS9",
-    name: "Additional Recipients +9",
-    button_name: "+9",
-    shotsUsed: "+9",
-    and_selector: [
-      { selector_type: "item_type", selector_value: "power" },
-      { selector_type: "item_name", selector_value: "Relief" }
-    ],
-    group: "Additional Recipients"
+    group: groupReliefName
   },
 
   // ----------------------
@@ -2106,7 +1942,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Sanctuary" }
     ],
-    group: "Sanctuary Modifiers"
+    group: groupSanctuaryName
   },
   {
     id: "POWERSANCTUARYMODMEDIUMBLAST",
@@ -2117,7 +1953,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Sanctuary" }
     ],
-    group: "Sanctuary Modifiers"
+    group: groupSanctuaryName
   },
   {
     id: "POWERSANCTUARYMODLARGEBLAST",
@@ -2128,7 +1964,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Sanctuary" }
     ],
-    group: "Sanctuary Modifiers"
+    group: groupSanctuaryName
   },
 
   // ----------------------
@@ -2142,7 +1978,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Shape Change" }
     ],
-    group: "Shape Change Modifiers"
+    group: "Shape Change Modifiers - "
   },
   {
     id: "POWERSHAPECHANGEMODTRANSFORM",
@@ -2153,7 +1989,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Shape Change" }
     ],
-    group: "Shape Change Modifiers"
+    group: "Shape Change Modifiers - "
   },
   {
     id: "POWERSHAPECHANGEMODTRANSFORM3",
@@ -2164,7 +2000,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Shape Change" }
     ],
-    group: "Shape Change Modifiers"
+    group: "Shape Change Modifiers - "
   },
   {
     id: "POWERSHAPECHANGEMODPOLYMORPH",
@@ -2175,7 +2011,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Shape Change" }
     ],
-    group: "Shape Change Modifiers"
+    group: "Shape Change Modifiers - "
   },
 
   // ----------------------
@@ -2189,7 +2025,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Smite" }
     ],
-    group: "Smite Modifiers"
+    group: "Smite Modifiers - "
   },
   {
     id: "POWERSMITEMODSPIRITUALWEAPON",
@@ -2200,7 +2036,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Smite" }
     ],
-    group: "Smite Modifiers"
+    group: "Smite Modifiers - "
   },
 
   // ----------------------
@@ -2214,7 +2050,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Sound/Silence" }
     ],
-    group: "Sound/Silence Modifiers"
+    group: "Sound/Silence Modifiers - "
   },
   {
     id: "POWERSOUNDMODMOBILE",
@@ -2225,7 +2061,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Sound/Silence" }
     ],
-    group: "Sound/Silence Modifiers"
+    group: "Sound/Silence Modifiers - "
   },
   {
     id: "POWERSOUNDMODALARM",
@@ -2236,7 +2072,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Sound/Silence" }
     ],
-    group: "Sound/Silence Modifiers"
+    group: "Sound/Silence Modifiers - "
   },
   {
     id: "POWERSOUNDMODALARM2",
@@ -2247,7 +2083,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Sound/Silence" }
     ],
-    group: "Sound/Silence Modifiers"
+    group: "Sound/Silence Modifiers - "
   },
   // ----------------------
   {
@@ -2361,7 +2197,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Speak Language" }
     ],
-    group: "Speak Language Modifiers"
+    group: "Speak Language Modifiers - "
   },
   {
     id: "POWERLANGUAGEMODMASS",
@@ -2372,7 +2208,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Speak Language" }
     ],
-    group: "Speak Language Modifiers"
+    group: "Speak Language Modifiers - "
   },
   // ----------------------
   {
@@ -2486,7 +2322,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Stun" }
     ],
-    group: "Area of Effect"
+    group: groupStunName
   },
   {
     id: "POWERSTUNMODLARGE",
@@ -2497,7 +2333,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Stun" }
     ],
-    group: "Area of Effect"
+    group: groupStunName
   },
 
   // ----------------------
@@ -2557,7 +2393,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Summon Ally" }
     ],
-    group: "Summon Ally Modifiers"
+    group: "Summon Ally Modifiers - "
   },
   {
     id: "POWERSUMMONALLYMODCOMBATEDGE2",
@@ -2568,7 +2404,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Summon Ally" }
     ],
-    group: "Summon Ally Modifiers"
+    group: "Summon Ally Modifiers - "
   },
   {
     id: "POWERSUMMONALLYMODCOMBATEDGE3",
@@ -2579,7 +2415,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Summon Ally" }
     ],
-    group: "Summon Ally Modifiers"
+    group: "Summon Ally Modifiers - "
   },
   {
     id: "POWERSUMMONALLYMODFLIGHT",
@@ -2590,7 +2426,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Summon Ally" }
     ],
-    group: "Summon Ally Modifiers"
+    group: "Summon Ally Modifiers - "
   },
   {
     id: "POWERSUMMONALLYMODMINDRIDER",
@@ -2601,7 +2437,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Summon Ally" }
     ],
-    group: "Summon Ally Modifiers"
+    group: "Summon Ally Modifiers - "
   },
   // ----------------------
   {
