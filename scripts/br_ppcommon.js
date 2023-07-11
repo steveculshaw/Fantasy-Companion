@@ -146,10 +146,10 @@ export const ppcommon = [
     group: groupNameGenericPModifiers
   },
   {
-    id: "HINDERHURRY2",
-    name: "Hinder/Hurry (+2)",
-    button_name: "Hinder/Hurry (+2)",
-    shotsUsed: "+2",
+    id: "HINDERHURRY1",
+    name: "Hinder/Hurry (+1)",
+    button_name: "Hinder/Hurry (+1)",
+    shotsUsed: "+1",
     selector_type: "item_type",
     selector_value: "power",
     group: groupNameGenericPModifiers
