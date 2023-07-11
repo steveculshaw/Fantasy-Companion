@@ -6,6 +6,7 @@ const starIcon = "☆ ";
 const groupArcaneProtectionName = "Power Modifiers - Arcane Protection";
 const groupBeastFriendName = "Power Modifiers - Beast Friend";
 const groupBoltName = "Power Modifiers - Bolt";
+const groupBoostTraitsName = "Power Modifiers - Boost Traits";
 const groupBoostLowerTraitsName = "Power Modifiers - Boost/Lower Traits";
 const groupBurstName = "Power Modifiers - Burst";
 const groupConfusionName = "Power Modifiers - Confusion";
@@ -15,6 +16,7 @@ const groupHealingName = "Power Modifiers - Healing";
 const groupProtectionName = "Power Modifiers - Protection";
 const groupReliefName = "Power Modifiers - Relief";
 const groupSanctuaryName = "Power Modifiers - Sanctuary";
+const groupShapeChangeName = "Power Modifiers - Shape Change";
 const groupStunName = "Power Modifiers - Stun";
 
 export const ppnovice = [
@@ -34,7 +36,7 @@ export const ppnovice = [
   {
     id: "POWERARCANEPROTECTIONMODADDITIONALRECIPIENTS",
     name: "Additional Recipients +1",
-    button_name: "+1",
+    button_name: "Add.Recip's +1",
     shotsUsed: "+1",
     and_selector: [
       { selector_type: "item_type", selector_value: "power" },
@@ -45,7 +47,7 @@ export const ppnovice = [
   {
     id: "POWERARCANEPROTECTIONMODADDITIONALRECIPIENTS2",
     name: "Additional Recipients +2",
-    button_name: "+2",
+    button_name: "Add.Recip's +2",
     shotsUsed: "+2",
     and_selector: [
       { selector_type: "item_type", selector_value: "power" },
@@ -56,7 +58,7 @@ export const ppnovice = [
   {
     id: "POWERARCANEPROTECTIONMODADDITIONALRECIPIENTS3",
     name: "Additional Recipients +3",
-    button_name: "+3",
+    button_name: "Add.Recip's +3",
     shotsUsed: "+3",
     and_selector: [
       { selector_type: "item_type", selector_value: "power" },
@@ -67,7 +69,7 @@ export const ppnovice = [
   {
     id: "POWERARCANEPROTECTIONMODADDITIONALRECIPIENTS4",
     name: "Additional Recipients +4",
-    button_name: "+4",
+    button_name: "Add.Recip's +4",
     shotsUsed: "+4",
     and_selector: [
       { selector_type: "item_type", selector_value: "power" },
@@ -197,6 +199,76 @@ export const ppnovice = [
       { selector_type: "item_name", selector_value: "Bolt" }
     ],
     group: groupBoltName
+  },
+
+  // ----------------------
+  // POWER Boost Trait
+  {
+    id: "POWERBOOSTTRAITMODSTRONG",
+    name: "Strong (+1)",
+    button_name: "Strong (+1)",
+    shotsUsed: "+1",
+    and_selector: [
+      { selector_type: "item_type", selector_value: "power" },
+      { selector_type: "item_name", selector_value: "Boost/Lower Trait" }
+    ],
+    group: groupBoostLowerTraitsName
+  },
+  {
+    id: "POWERBOOSTTRAITMOGREATER",
+    name: "Greater Boost/Lower Trait (+2)",
+    button_name: "Greater Boost/Lower Trait (+2)",
+    shotsUsed: "+2",
+    and_selector: [
+      { selector_type: "item_type", selector_value: "power" },
+      { selector_type: "item_name", selector_value: "Boost/Lower Trait" }
+    ],
+    group: groupBoostTraitsName
+  },
+  // ----------------------
+  {
+    id: "POWERBOOSTTRAITMODADDITIONALRECIPIENTS",
+    name: "Additional Recipients +1",
+    button_name: "Add.Recip's +1",
+    shotsUsed: "+1",
+    and_selector: [
+      { selector_type: "item_type", selector_value: "power" },
+      { selector_type: "item_name", selector_value: "Boost/Lower Trait" }
+    ],
+    group: groupBoostTraitsName
+  },
+  {
+    id: "POWERBOOSTTRAITMODADDITIONALRECIPIENTS2",
+    name: "Additional Recipients +2",
+    button_name: "Add.Recip's +2",
+    shotsUsed: "+2",
+    and_selector: [
+      { selector_type: "item_type", selector_value: "power" },
+      { selector_type: "item_name", selector_value: "Boost/Lower Trait" }
+    ],
+    group: groupBoostTraitsName
+  },
+  {
+    id: "POWERBOOSTTRAITMODADDITIONALRECIPIENTS3",
+    name: "Additional Recipients +3",
+    button_name: "Add.Recip's +3",
+    shotsUsed: "+3",
+    and_selector: [
+      { selector_type: "item_type", selector_value: "power" },
+      { selector_type: "item_name", selector_value: "Boost/Lower Trait" }
+    ],
+    group: groupBoostTraitsName
+  },
+  {
+    id: "POWERBOOSTTRAITMODADDITIONALRECIPIENTS4",
+    name: "Additional Recipients +4",
+    button_name: "Add.Recip's +4",
+    shotsUsed: "+4",
+    and_selector: [
+      { selector_type: "item_type", selector_value: "power" },
+      { selector_type: "item_name", selector_value: "Boost/Lower Trait" }
+    ],
+    group: groupBoostTraitsName
   },
 
   // ----------------------
@@ -1819,7 +1891,7 @@ export const ppnovice = [
   {
     id: "POWERPROTECTIONMODADDITIONALRECIPIENTS",
     name: "Additional Recipients +1",
-    button_name: "+1",
+    button_name: "Add.Recip's +1",
     shotsUsed: "+1",
     and_selector: [
       { selector_type: "item_type", selector_value: "power" },
@@ -1830,7 +1902,7 @@ export const ppnovice = [
   {
     id: "POWERPROTECTIONMODADDITIONALRECIPIENTS2",
     name: "Additional Recipients +2",
-    button_name: "+2",
+    button_name: "Add.Recip's +2",
     shotsUsed: "+2",
     and_selector: [
       { selector_type: "item_type", selector_value: "power" },
@@ -1841,7 +1913,7 @@ export const ppnovice = [
   {
     id: "POWERPROTECTIONMODADDITIONALRECIPIENTS3",
     name: "Additional Recipients +3",
-    button_name: "+3",
+    button_name: "Add.Recip's +3",
     shotsUsed: "+3",
     and_selector: [
       { selector_type: "item_type", selector_value: "power" },
@@ -1852,7 +1924,7 @@ export const ppnovice = [
   {
     id: "POWERPROTECTIONMODADDITIONALRECIPIENTS4",
     name: "Additional Recipients +4",
-    button_name: "+4",
+    button_name: "Add.Recip's +4",
     shotsUsed: "+4",
     and_selector: [
       { selector_type: "item_type", selector_value: "power" },
@@ -1889,7 +1961,7 @@ export const ppnovice = [
   {
     id: "POWERRELIEFMODADDITIONALRECIPIENTS",
     name: "Additional Recipients +1",
-    button_name: "+1",
+    button_name: "Add.Recip's +1",
     shotsUsed: "+1",
     and_selector: [
       { selector_type: "item_type", selector_value: "power" },
@@ -1900,7 +1972,7 @@ export const ppnovice = [
   {
     id: "POWERRELIEFMODADDITIONALRECIPIENTS2",
     name: "Additional Recipients +2",
-    button_name: "+2",
+    button_name: "Add.Recip's +2",
     shotsUsed: "+2",
     and_selector: [
       { selector_type: "item_type", selector_value: "power" },
@@ -1911,7 +1983,7 @@ export const ppnovice = [
   {
     id: "POWERRELIEFMODADDITIONALRECIPIENTS3",
     name: "Additional Recipients +3",
-    button_name: "+3",
+    button_name: "Add.Recip's +3",
     shotsUsed: "+3",
     and_selector: [
       { selector_type: "item_type", selector_value: "power" },
@@ -1922,7 +1994,7 @@ export const ppnovice = [
   {
     id: "POWERRELIEFMODADDITIONALRECIPIENTS4",
     name: "Additional Recipients +4",
-    button_name: "+4",
+    button_name: "Add.Recip's +4",
     shotsUsed: "+4",
     and_selector: [
       { selector_type: "item_type", selector_value: "power" },
@@ -1978,7 +2050,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Shape Change" }
     ],
-    group: "Shape Change Modifiers - "
+    group: groupShapeChangeName
   },
   {
     id: "POWERSHAPECHANGEMODTRANSFORM",
@@ -1989,7 +2061,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Shape Change" }
     ],
-    group: "Shape Change Modifiers - "
+    group: groupShapeChangeName
   },
   {
     id: "POWERSHAPECHANGEMODTRANSFORM3",
@@ -2000,7 +2072,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Shape Change" }
     ],
-    group: "Shape Change Modifiers - "
+    group: groupShapeChangeName
   },
   {
     id: "POWERSHAPECHANGEMODPOLYMORPH",
@@ -2011,7 +2083,7 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Shape Change" }
     ],
-    group: "Shape Change Modifiers - "
+    group: groupShapeChangeName
   },
 
   // ----------------------
