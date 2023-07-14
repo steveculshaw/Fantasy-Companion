@@ -20,6 +20,8 @@ Amend version in ...
 
 ## Changes
 
+Version: 0.0.1 Reset
+
 Version: 0.9.54 Bolt 3d6 damage for 2 PP's to script. DO NOT KNOW if LevelDB files working, and have NOT tried to deploy!!!
 
 Version: 0.9.53 Hopefully new LevelDB binary files
