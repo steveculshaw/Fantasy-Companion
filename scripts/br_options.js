@@ -1,4 +1,3 @@
-// const groupName = "Attack options";
 const groupName = "BRSW.AttackOption";
 const starIcon = "☆ ";
 
@@ -6,7 +5,7 @@ export const options = [
   {
     id: "DESPERATE_ATTACK-2",
     name: "Desperate Attack +2",
-    button_name: "Desperate Attack +2",
+    button_name: "Desperate Attack (+2)",
     skillMod: 2,
     dmgMod: -2,
     dmgOverride: "",
@@ -24,7 +23,7 @@ export const options = [
   {
     id: "DESPERATE_ATTACK-4",
     name: "Desperate Attack +4",
-    button_name: "Desperate Attack +4",
+    button_name: "Desperate Attack (+4)",
     skillMod: 4,
     dmgMod: -4,
     dmgOverride: "",
@@ -40,9 +39,9 @@ export const options = [
     group: groupName
   },
   {
-    id: "6Sweep",
+    id: "SWEEPSMC",
     name: "Sweep",
-    button_name: "Sweep",
+    button_name: "Sweep (-2)",
     skillMod: "-2",
     // extra_text: "<p style='color: blue;' > You may use the sweep action once per turn hitting all targets in reach at -2 to hit. </p>",
     and_selector: [
