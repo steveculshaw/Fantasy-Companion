@@ -1,4 +1,3 @@
-const groupName = "Savage Pathfinder";
 const groupNamePP = "Power Points";
 const groupNamePModifiers = "Power Modifiers - ";
 const groupNameGenericPModifiers = "Power Modifiers - Generic";
@@ -155,8 +154,8 @@ export const ppnovice = [
   // POWER BOLT
   {
     id: "POWERBOLTMODDAMAGE",
-    name: "Damage (+2)",
-    button_name: "Damage (+2)",
+    name: "Damage 3d6 (+2)",
+    button_name: "Damage 3d6 (+2)",
     shotsUsed: "+2",
     dmgMod: "+d6x",
     and_selector: [
@@ -167,8 +166,8 @@ export const ppnovice = [
   },
   {
     id: "POWERBOLTMODGREATERBOLT",
-    name: starIcon + "Greater Bolt (+4)",
-    button_name: starIcon + "Greater Bolt (+4)",
+    name: starIcon + "Greater Bolt 4d6 (+4)",
+    button_name: starIcon + "Greater Bolt 4d6 (+4)",
     shotsUsed: "+4",
     dmgMod: "+2d6x",
     and_selector: [
