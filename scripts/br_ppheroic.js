@@ -8,23 +8,23 @@ export const ppheroic = [
   // ----------------------
   // POWER Resurrection
   {
-    id:"POWERRESURRECTIONMODPOWER",
+    id: "POWERRESURRECTIONMODPOWER",
     name: "Power (+5)",
     button_name: "Power (+5)",
-    shotsUsed:"+5",
+    shotsUsed: "+5",
     and_selector: [
-      { selector_type: "item_type", selector_value:"power" }, 
+      { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Resurrection" }
     ],
     group: "Power Modifiers"
   },
   {
-    id:"POWERRESURRECTIONMODGREATER",
+    id: "POWERRESURRECTIONMODGREATER",
     name: starIcon + "Greater Resurrection (+10)",
     button_name: starIcon + "Greater Resurrection (+10)",
-    shotsUsed:"+10",
+    shotsUsed: "+10",
     and_selector: [
-      { selector_type: "item_type", selector_value:"power" }, 
+      { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Resurrection" }
     ],
     group: "Power Modifiers"
@@ -32,5 +32,5 @@ export const ppheroic = [
 
   // ----------------------
   // POWER Time Stop
-  
+
 ];

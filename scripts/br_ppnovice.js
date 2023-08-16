@@ -7,6 +7,7 @@ const groupBeastFriendName = "Power Modifiers - Beast Friend";
 const groupBoltName = "Power Modifiers - Bolt";
 const groupBoostTraitsName = "Power Modifiers - Boost Traits";
 const groupBoostLowerTraitsName = "Power Modifiers - Boost/Lower Traits";
+const groupBurrowName = "Power Modifiers - Burrow";
 const groupBurstName = "Power Modifiers - Burst";
 const groupConfusionName = "Power Modifiers - Confusion";
 const groupEntangleName = "Power Modifiers - Entangle";
@@ -351,115 +352,61 @@ export const ppnovice = [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Burrow" }
     ],
-    group: "Burrow Modifiers - "
+    group: groupBurrowName
   },
   // ----------------------
+  // !!! NOT TAKING ACCOUNT OF SELF ONLY POWERS !!!
   {
-    id: "POWERBURROWMODADDITIONALRECIPIENTS",
+    id: "POWERBURROWMODADDITIONALRECIPIENTS1",
     name: "Additional Recipients +1",
-    button_name: "+1",
+    button_name: "Add.Recip's +1",
     shotsUsed: "+1",
     and_selector: [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Burrow" }
     ],
-    group: "Additional Recipients"
+    group: groupBurrowName
   },
   {
     id: "POWERBURROWMODADDITIONALRECIPIENTS2",
     name: "Additional Recipients +2",
-    button_name: "+2",
+    button_name: "Add.Recip's +2",
     shotsUsed: "+2",
     and_selector: [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Burrow" }
     ],
-    group: "Additional Recipients"
+    group: groupBurrowName
   },
   {
     id: "POWERBURROWMODADDITIONALRECIPIENTS3",
     name: "Additional Recipients +3",
-    button_name: "+3",
+    button_name: "Add.Recip's +3",
     shotsUsed: "+3",
     and_selector: [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Burrow" }
     ],
-    group: "Additional Recipients"
+    group: groupBurrowName
   },
   {
     id: "POWERBURROWMODADDITIONALRECIPIENTS4",
     name: "Additional Recipients +4",
-    button_name: "+4",
+    button_name: "Add.Recip's +4",
     shotsUsed: "+4",
     and_selector: [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Burrow" }
     ],
-    group: "Additional Recipients"
-  },
-  {
-    id: "POWERBURROWMODADDITIONALRECIPIENTS5",
-    name: "Additional Recipients +5",
-    button_name: "+5",
-    shotsUsed: "+5",
-    and_selector: [
-      { selector_type: "item_type", selector_value: "power" },
-      { selector_type: "item_name", selector_value: "Burrow" }
-    ],
-    group: "Additional Recipients"
-  },
-  {
-    id: "POWERBURROWMODADDITIONALRECIPIENTS6",
-    name: "Additional Recipients +6",
-    button_name: "+6",
-    shotsUsed: "+6",
-    and_selector: [
-      { selector_type: "item_type", selector_value: "power" },
-      { selector_type: "item_name", selector_value: "Burrow" }
-    ],
-    group: "Additional Recipients"
-  },
-  {
-    id: "POWERBURROWMODADDITIONALRECIPIENTS7",
-    name: "Additional Recipients +7",
-    button_name: "+7",
-    shotsUsed: "+7",
-    and_selector: [
-      { selector_type: "item_type", selector_value: "power" },
-      { selector_type: "item_name", selector_value: "Burrow" }
-    ],
-    group: "Additional Recipients"
-  },
-  {
-    id: "POWERBURROWMODADDITIONALRECIPIENTS8",
-    name: "Additional Recipients +8",
-    button_name: "+8",
-    shotsUsed: "+8",
-    and_selector: [
-      { selector_type: "item_type", selector_value: "power" },
-      { selector_type: "item_name", selector_value: "Burrow" }
-    ],
-    group: "Additional Recipients"
-  },
-  {
-    id: "POWERBURROWMODADDITIONALRECIPIENTS9",
-    name: "Additional Recipients +9",
-    button_name: "+9",
-    shotsUsed: "+9",
-    and_selector: [
-      { selector_type: "item_type", selector_value: "power" },
-      { selector_type: "item_name", selector_value: "Burrow" }
-    ],
-    group: "Additional Recipients"
+    group: groupBurrowName
   },
 
   // ----------------------
   // POWER BURST
   {
     id: "POWERBURSTMODDAMAGE",
-    name: "Damage (+2)",
-    button_name: "Damage (+2)",
+    name: "Damage 3d6 (+2)",
+    button_name: "Damage 3d6 (+2)",
     shotsUsed: "+2",
     dmgMod: "+d6x",
     and_selector: [
@@ -2052,7 +1999,7 @@ export const ppnovice = [
     group: groupShapeChangeName
   },
   {
-    id: "POWERSHAPECHANGEMODTRANSFORM",
+    id: "POWERSHAPECHANGEMODTRANSFORM2",
     name: starIcon + "Transform (+2)",
     button_name: starIcon + "Transform (+2)",
     shotsUsed: "+2",
@@ -2078,6 +2025,61 @@ export const ppnovice = [
     name: starIcon + "Polymorph (+3)",
     button_name: starIcon + "Polymorph (+3)",
     shotsUsed: "+3",
+    and_selector: [
+      { selector_type: "item_type", selector_value: "power" },
+      { selector_type: "item_name", selector_value: "Shape Change" }
+    ],
+    group: groupShapeChangeName
+  },
+  {
+    id: "POWERSHAPECHANGEMODSIZE1",
+    name: "SIZE-4TO-1 (+3)",
+    button_name: "Sz-4to-1 (+3)",
+    shotsUsed: "+3",
+    and_selector: [
+      { selector_type: "item_type", selector_value: "power" },
+      { selector_type: "item_name", selector_value: "Shape Change" }
+    ],
+    group: groupShapeChangeName
+  },
+  {
+    id: "POWERSHAPECHANGEMODSIZE2",
+    name: "SIZE0 (+5)",
+    button_name: "Sz0 (+5)",
+    shotsUsed: "+5",
+    and_selector: [
+      { selector_type: "item_type", selector_value: "power" },
+      { selector_type: "item_name", selector_value: "Shape Change" }
+    ],
+    group: groupShapeChangeName
+  },
+  {
+    id: "POWERSHAPECHANGEMODSIZE3",
+    name: "SIZE1to2 (+8)",
+    button_name: "Sz1to2 (+8)",
+    shotsUsed: "+8",
+    and_selector: [
+      { selector_type: "item_type", selector_value: "power" },
+      { selector_type: "item_name", selector_value: "Shape Change" }
+    ],
+    group: groupShapeChangeName
+  },
+  {
+    id: "POWERSHAPECHANGEMODSIZE4",
+    name: "SIZE3to4 (+11)",
+    button_name: "Sz3to4 (+1)",
+    shotsUsed: "+11",
+    and_selector: [
+      { selector_type: "item_type", selector_value: "power" },
+      { selector_type: "item_name", selector_value: "Shape Change" }
+    ],
+    group: groupShapeChangeName
+  },
+  {
+    id: "POWERSHAPECHANGEMODSIZE5",
+    name: "SIZE5to10 (+15)",
+    button_name: "Sz5to10 (+15)",
+    shotsUsed: "+15",
     and_selector: [
       { selector_type: "item_type", selector_value: "power" },
       { selector_type: "item_name", selector_value: "Shape Change" }
