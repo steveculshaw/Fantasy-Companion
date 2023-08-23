@@ -15,7 +15,7 @@
   ],
   "compatibility": {
     "minimum": "10",
-    "verified": "11.302"
+    "verified": "11.307"
   },
   "description": "A module containing personal Fantasy-Companion compendium as of v1.5",
   "download": "https://raw.githubusercontent.com/steveculshaw/Fantasy-Companion/master/Fantasy-Companion.zip",
