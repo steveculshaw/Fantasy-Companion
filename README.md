@@ -20,6 +20,8 @@ Amend version in ...
 
 ## Changes
 
+Version: 0.0.3 Arcane Sorcerer icon, and binary files look to be working 
+
 Version: 0.0.2 Drop assets and try out binary files for compendiums
 
 Version: 0.0.1 Reset
