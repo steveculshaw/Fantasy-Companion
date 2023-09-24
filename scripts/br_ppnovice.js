@@ -153,53 +153,53 @@ export const ppnovice = [
 
   // ----------------------
   // POWER BOLT
-  {
-    id: "POWERBOLTMODDAMAGE",
-    name: "Damage 3d6 (+2)",
-    button_name: "Damage 3d6 (+2)",
-    shotsUsed: "+2",
-    dmgMod: "+d6x",
-    and_selector: [
-      { selector_type: "item_type", selector_value: "power" },
-      { selector_type: "item_name", selector_value: "Bolt" }
-    ],
-    group: groupBoltName
-  },
-  {
-    id: "POWERBOLTMODGREATERBOLT",
-    name: starIcon + "Greater Bolt 4d6 (+4)",
-    button_name: starIcon + "Greater Bolt 4d6 (+4)",
-    shotsUsed: "+4",
-    dmgMod: "+2d6x",
-    and_selector: [
-      { selector_type: "item_type", selector_value: "power" },
-      { selector_type: "item_name", selector_value: "Bolt" }
-    ],
-    group: groupBoltName
-  },
-  {
-    id: "POWERBOLTMODRATEOFFIRE",
-    name: starIcon + "Rate of Fire (+2)",
-    button_name: starIcon + "Rate of Fire (+2)",
-    shotsUsed: "+2",
-    rof: "2",
-    and_selector: [
-      { selector_type: "item_type", selector_value: "power" },
-      { selector_type: "item_name", selector_value: "Bolt" }
-    ],
-    group: groupBoltName
-  },
-  {
-    id: "POWERBOLTMODDISINTEGRATE",
-    name: starIcon + "Disintegrate (+2)",
-    button_name: starIcon + "Disintegrate (+2)",
-    shotsUsed: "+2",
-    and_selector: [
-      { selector_type: "item_type", selector_value: "power" },
-      { selector_type: "item_name", selector_value: "Bolt" }
-    ],
-    group: groupBoltName
-  },
+  // {
+  //   id: "POWERBOLTMODDAMAGE",
+  //   name: "Damage 3d6 (+2)",
+  //   button_name: "Damage 3d6 (+2)",
+  //   shotsUsed: "+2",
+  //   dmgMod: "+d6x",
+  //   and_selector: [
+  //     { selector_type: "item_type", selector_value: "power" },
+  //     { selector_type: "item_name", selector_value: "Bolt" }
+  //   ],
+  //   group: groupBoltName
+  // },
+  // {
+  //   id: "POWERBOLTMODGREATERBOLT",
+  //   name: starIcon + "Greater Bolt 4d6 (+4)",
+  //   button_name: starIcon + "Greater Bolt 4d6 (+4)",
+  //   shotsUsed: "+4",
+  //   dmgMod: "+2d6x",
+  //   and_selector: [
+  //     { selector_type: "item_type", selector_value: "power" },
+  //     { selector_type: "item_name", selector_value: "Bolt" }
+  //   ],
+  //   group: groupBoltName
+  // },
+  // {
+  //   id: "POWERBOLTMODRATEOFFIRE",
+  //   name: starIcon + "Rate of Fire (+2)",
+  //   button_name: starIcon + "Rate of Fire (+2)",
+  //   shotsUsed: "+2",
+  //   rof: "2",
+  //   and_selector: [
+  //     { selector_type: "item_type", selector_value: "power" },
+  //     { selector_type: "item_name", selector_value: "Bolt" }
+  //   ],
+  //   group: groupBoltName
+  // },
+  // {
+  //   id: "POWERBOLTMODDISINTEGRATE",
+  //   name: starIcon + "Disintegrate (+2)",
+  //   button_name: starIcon + "Disintegrate (+2)",
+  //   shotsUsed: "+2",
+  //   and_selector: [
+  //     { selector_type: "item_type", selector_value: "power" },
+  //     { selector_type: "item_name", selector_value: "Bolt" }
+  //   ],
+  //   group: groupBoltName
+  // },
 
   // ----------------------
   // POWER Boost Trait
