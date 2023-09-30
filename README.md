@@ -20,7 +20,9 @@ Amend version in ...
 
 ## Changes
 
-Version: 0.0.3 Arcane Sorcerer icon, and binary files look to be working 
+Version: 0.1.0 Dropped all the BR2 global actions, in favour of adding code to the main BR2 code repo
+
+Version: 0.0.3 Arcane Sorcerer icon, and binary files look to be working
 
 Version: 0.0.2 Drop assets and try out binary files for compendiums
 
