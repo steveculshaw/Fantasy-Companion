@@ -1,31 +1,30 @@
-const groupNamePP = "Power Points";
-const groupNamePModifiers = "Power Modifiers - ";
-const groupNameGenericPModifiers = "Power Modifiers - Generic";
-const starIcon = "☆ ";
+/// power modifiers for novice powers ...
+
+// const groupNamePP = "Power Points";
+// const groupNamePModifiers = "Power Modifiers - ";
+// const groupNameGenericPModifiers = "Power Modifiers - Generic";
 const groupArcaneProtectionName = "Power Modifiers - Arcane Protection";
 const groupBeastFriendName = "Power Modifiers - Beast Friend";
-const groupBoltName = "Power Modifiers - Bolt";
+// const groupBoltName = "Power Modifiers - Bolt";
 const groupBoostTraitsName = "Power Modifiers - Boost Traits";
 const groupBoostLowerTraitsName = "Power Modifiers - Boost/Lower Traits";
 const groupBurrowName = "Power Modifiers - Burrow";
-const groupBurstName = "Power Modifiers - Burst";
+// const groupBurstName = "Power Modifiers - Burst";
 const groupConfusionName = "Power Modifiers - Confusion";
 const groupEntangleName = "Power Modifiers - Entangle";
 const groupEnvironmentalProtection = "Power Modifiers - Environmental Protection";
-const groupHealingName = "Power Modifiers - Healing";
-const groupProtectionName = "Power Modifiers - Protection";
-const groupReliefName = "Power Modifiers - Relief";
+// const groupHealingName = "Power Modifiers - Healing";
+// const groupProtectionName = "Power Modifiers - Protection";
+// const groupReliefName = "Power Modifiers - Relief";
 const groupSanctuaryName = "Power Modifiers - Sanctuary";
-const groupShapeChangeName = "Power Modifiers - Shape Change";
+// const groupShapeChangeName = "Power Modifiers - Shape Change";
 const groupStunName = "Power Modifiers - Stun";
 
-export const ppnovice = [
-  // ----------------------
-  // POWER Arcane Protection    
+export const POWER_MODIFIERS_NOVICE = [
   {
     id: "POWERARCANEPROTECTIONMODGREATERARCANEPROTECTION",
-    name: starIcon + "Greater Arcane Protection (+2)",
-    button_name: starIcon + "Greater Arcane Protection (+2)",
+    name: "☆ Greater Arcane Protection (+2)",
+    button_name: "☆ Greater Arcane Protection (+2)",
     shotsUsed: "+2",
     and_selector: [
       { selector_type: "item_type", selector_value: "power" },
@@ -36,7 +35,7 @@ export const ppnovice = [
   {
     id: "POWERARCANEPROTECTIONMODADDITIONALRECIPIENTS",
     name: "Additional Recipients +1",
-    button_name: "Add.Recip's +1",
+    button_name: "Add.Recipient's +1",
     shotsUsed: "+1",
     and_selector: [
       { selector_type: "item_type", selector_value: "power" },
@@ -47,7 +46,7 @@ export const ppnovice = [
   {
     id: "POWERARCANEPROTECTIONMODADDITIONALRECIPIENTS2",
     name: "Additional Recipients +2",
-    button_name: "Add.Recip's +2",
+    button_name: "Add.Recipient's +2",
     shotsUsed: "+2",
     and_selector: [
       { selector_type: "item_type", selector_value: "power" },
@@ -58,7 +57,7 @@ export const ppnovice = [
   {
     id: "POWERARCANEPROTECTIONMODADDITIONALRECIPIENTS3",
     name: "Additional Recipients +3",
-    button_name: "Add.Recip's +3",
+    button_name: "Add.Recipient's +3",
     shotsUsed: "+3",
     and_selector: [
       { selector_type: "item_type", selector_value: "power" },
@@ -69,7 +68,7 @@ export const ppnovice = [
   {
     id: "POWERARCANEPROTECTIONMODADDITIONALRECIPIENTS4",
     name: "Additional Recipients +4",
-    button_name: "Add.Recip's +4",
+    button_name: "Add.Recipient's +4",
     shotsUsed: "+4",
     and_selector: [
       { selector_type: "item_type", selector_value: "power" },
@@ -82,8 +81,8 @@ export const ppnovice = [
   // POWER Beast Friend    
   {
     id: "POWERBEASTFRIENDMODBESTIARIUM",
-    name: starIcon + "Bestiarium (+2)",
-    button_name: starIcon + "Bestiarium (+2)",
+    name: "☆ Bestiarium (+2)",
+    button_name: "☆ Bestiarium (+2)",
     shotsUsed: "+2",
     and_selector: [
       { selector_type: "item_type", selector_value: "power" },
@@ -167,8 +166,8 @@ export const ppnovice = [
   // },
   // {
   //   id: "POWERBOLTMODGREATERBOLT",
-  //   name: starIcon + "Greater Bolt 4d6 (+4)",
-  //   button_name: starIcon + "Greater Bolt 4d6 (+4)",
+  //   name: "☆ Greater Bolt 4d6 (+4)",
+  //   button_name: "☆ Greater Bolt 4d6 (+4)",
   //   shotsUsed: "+4",
   //   dmgMod: "+2d6x",
   //   and_selector: [
@@ -179,8 +178,8 @@ export const ppnovice = [
   // },
   // {
   //   id: "POWERBOLTMODRATEOFFIRE",
-  //   name: starIcon + "Rate of Fire (+2)",
-  //   button_name: starIcon + "Rate of Fire (+2)",
+  //   name: "☆ Rate of Fire (+2)",
+  //   button_name: "☆ Rate of Fire (+2)",
   //   shotsUsed: "+2",
   //   rof: "2",
   //   and_selector: [
@@ -191,8 +190,8 @@ export const ppnovice = [
   // },
   // {
   //   id: "POWERBOLTMODDISINTEGRATE",
-  //   name: starIcon + "Disintegrate (+2)",
-  //   button_name: starIcon + "Disintegrate (+2)",
+  //   name: "☆ Disintegrate (+2)",
+  //   button_name: "☆ Disintegrate (+2)",
   //   shotsUsed: "+2",
   //   and_selector: [
   //     { selector_type: "item_type", selector_value: "power" },
@@ -229,7 +228,7 @@ export const ppnovice = [
   {
     id: "POWERBOOSTTRAITMODADDITIONALRECIPIENTS",
     name: "Additional Recipients +1",
-    button_name: "Add.Recip's +1",
+    button_name: "Add.Recipient's +1",
     shotsUsed: "+1",
     and_selector: [
       { selector_type: "item_type", selector_value: "power" },
@@ -240,7 +239,7 @@ export const ppnovice = [
   {
     id: "POWERBOOSTTRAITMODADDITIONALRECIPIENTS2",
     name: "Additional Recipients +2",
-    button_name: "Add.Recip's +2",
+    button_name: "Add.Recipient's +2",
     shotsUsed: "+2",
     and_selector: [
       { selector_type: "item_type", selector_value: "power" },
@@ -251,7 +250,7 @@ export const ppnovice = [
   {
     id: "POWERBOOSTTRAITMODADDITIONALRECIPIENTS3",
     name: "Additional Recipients +3",
-    button_name: "Add.Recip's +3",
+    button_name: "Add.Recipient's +3",
     shotsUsed: "+3",
     and_selector: [
       { selector_type: "item_type", selector_value: "power" },
@@ -262,7 +261,7 @@ export const ppnovice = [
   {
     id: "POWERBOOSTTRAITMODADDITIONALRECIPIENTS4",
     name: "Additional Recipients +4",
-    button_name: "Add.Recip's +4",
+    button_name: "Add.Recipient's +4",
     shotsUsed: "+4",
     and_selector: [
       { selector_type: "item_type", selector_value: "power" },
@@ -354,12 +353,10 @@ export const ppnovice = [
     ],
     group: groupBurrowName
   },
-  // ----------------------
-  // !!! NOT TAKING ACCOUNT OF SELF ONLY POWERS !!!
   {
     id: "POWERBURROWMODADDITIONALRECIPIENTS1",
     name: "Additional Recipients +1",
-    button_name: "Add.Recip's +1",
+    button_name: "Add.Recipient's +1",
     shotsUsed: "+1",
     and_selector: [
       { selector_type: "item_type", selector_value: "power" },
@@ -370,7 +367,7 @@ export const ppnovice = [
   {
     id: "POWERBURROWMODADDITIONALRECIPIENTS2",
     name: "Additional Recipients +2",
-    button_name: "Add.Recip's +2",
+    button_name: "Add.Recipient's +2",
     shotsUsed: "+2",
     and_selector: [
       { selector_type: "item_type", selector_value: "power" },
@@ -381,7 +378,7 @@ export const ppnovice = [
   {
     id: "POWERBURROWMODADDITIONALRECIPIENTS3",
     name: "Additional Recipients +3",
-    button_name: "Add.Recip's +3",
+    button_name: "Add.Recipient's +3",
     shotsUsed: "+3",
     and_selector: [
       { selector_type: "item_type", selector_value: "power" },
@@ -392,7 +389,7 @@ export const ppnovice = [
   {
     id: "POWERBURROWMODADDITIONALRECIPIENTS4",
     name: "Additional Recipients +4",
-    button_name: "Add.Recip's +4",
+    button_name: "Add.Recipient's +4",
     shotsUsed: "+4",
     and_selector: [
       { selector_type: "item_type", selector_value: "power" },
@@ -403,48 +400,48 @@ export const ppnovice = [
 
   // ----------------------
   // POWER BURST
-  {
-    id: "POWERBURSTMODDAMAGE",
-    name: "Damage 3d6 (+2)",
-    button_name: "Damage 3d6 (+2)",
-    shotsUsed: "+2",
-    dmgMod: "+d6x",
-    and_selector: [
-      { selector_type: "item_type", selector_value: "power" },
-      { selector_type: "item_name", selector_value: "Burst" }
-    ],
-    group: groupBurstName
-  },
-  {
-    id: "POWERBURSTPUSH",
-    name: "Push (+1)",
-    button_name: "Push (+1)",
-    shotsUsed: "+1",
-    and_selector: [
-      { selector_type: "item_type", selector_value: "power" },
-      { selector_type: "item_name", selector_value: "Burst" }
-    ],
-    group: groupBurstName
-  },
-  {
-    id: "POWERBURSTMODGREATERBURST",
-    name: starIcon + "Greater Bolt (+4)",
-    button_name: starIcon + "Greater Bolt (+4)",
-    shotsUsed: "+4",
-    dmgMod: "+2d6x",
-    and_selector: [
-      { selector_type: "item_type", selector_value: "power" },
-      { selector_type: "item_name", selector_value: "Burst" }
-    ],
-    group: groupBurstName
-  },
+  // {
+  // id: "POWERBURSTMODDAMAGE",
+  // name: "Damage 3d6 (+2)",
+  // button_name: "Damage 3d6 (+2)",
+  // shotsUsed: "+2",
+  // dmgMod: "+d6x",
+  // and_selector: [
+  // { selector_type: "item_type", selector_value: "power" },
+  // { selector_type: "item_name", selector_value: "Burst" }
+  // ],
+  // group: groupBurstName
+  // },
+  // {
+  // id: "POWERBURSTPUSH",
+  // name: "Push (+1)",
+  // button_name: "Push (+1)",
+  // shotsUsed: "+1",
+  // and_selector: [
+  // { selector_type: "item_type", selector_value: "power" },
+  // { selector_type: "item_name", selector_value: "Burst" }
+  // ],
+  // group: groupBurstName
+  // },
+  // {
+  // id: "POWERBURSTMODGREATERBURST",
+  // name: "☆ Greater Bolt (+4)",
+  // button_name: "☆ Greater Bolt (+4)",
+  // shotsUsed: "+4",
+  // dmgMod: "+2d6x",
+  // and_selector: [
+  // { selector_type: "item_type", selector_value: "power" },
+  // { selector_type: "item_name", selector_value: "Burst" }
+  // ],
+  // group: groupBurstName
+  // },
 
   // ----------------------
   // POWER Confusion
   {
     id: "POWERCONFUSIONMODGREATER",
-    name: starIcon + "Greater Confusion (+2)",
-    button_name: starIcon + "Greater Confusion (+2)",
+    name: "☆ Greater Confusion (+2)",
+    button_name: "☆ Greater Confusion (+2)",
     shotsUsed: "+2",
     and_selector: [
       { selector_type: "item_type", selector_value: "power" },
@@ -693,8 +690,8 @@ export const ppnovice = [
   // POWER Darksight
   {
     id: "POWERDARKSIGHTMODGREATER",
-    name: starIcon + "Greater Darksight (+2)",
-    button_name: starIcon + "Greater Darksight (+2)",
+    name: "☆ Greater Darksight (+2)",
+    button_name: "☆ Greater Darksight (+2)",
     shotsUsed: "+2",
     and_selector: [
       { selector_type: "item_type", selector_value: "power" },
@@ -1067,8 +1064,8 @@ export const ppnovice = [
   // POWER Dispel
   {
     id: "POWERDISPELMODANTIMAGICFIELD",
-    name: starIcon + "Anti-Magic Field (+8)",
-    button_name: starIcon + "Anti-Magic Field (+8)",
+    name: "☆ Anti-Magic Field (+8)",
+    button_name: "☆ Anti-Magic Field (+8)",
     shotsUsed: "+8",
     and_selector: [
       { selector_type: "item_type", selector_value: "power" },
@@ -1100,8 +1097,8 @@ export const ppnovice = [
   },
   {
     id: "POWERDISPELMODREMOVECURSE",
-    name: starIcon + "Remove Curse (+2)",
-    button_name: starIcon + "Remove Curse (+2)",
+    name: "☆ Remove Curse (+2)",
+    button_name: "☆ Remove Curse (+2)",
     shotsUsed: "+2",
     and_selector: [
       { selector_type: "item_type", selector_value: "power" },
@@ -1149,8 +1146,8 @@ export const ppnovice = [
   // POWER Elemental Manipulation
   {
     id: "POWERELEMENTALMANIPULATIONMODPOWER",
-    name: starIcon + "Power (+3)",
-    button_name: starIcon + "Power (+3)",
+    name: "☆ Power (+3)",
+    button_name: "☆ Power (+3)",
     shotsUsed: "+3",
     and_selector: [
       { selector_type: "item_type", selector_value: "power" },
@@ -1160,8 +1157,8 @@ export const ppnovice = [
   },
   {
     id: "POWERELEMENTALMANIPULATIONMODWEATHER",
-    name: starIcon + "Weather (+5)",
-    button_name: starIcon + "Weather (+5)",
+    name: "☆ Weather (+5)",
+    button_name: "☆ Weather (+5)",
     shotsUsed: "+5",
     and_selector: [
       { selector_type: "item_type", selector_value: "power" },
@@ -1195,8 +1192,8 @@ export const ppnovice = [
   },
   {
     id: "POWEREMPATHYMODTRUTH",
-    name: starIcon + "Truth (+2)",
-    button_name: starIcon + "Truth (+2)",
+    name: "☆ Truth (+2)",
+    button_name: "☆ Truth (+2)",
     shotsUsed: "+2",
     and_selector: [
       { selector_type: "item_type", selector_value: "power" },
@@ -1331,8 +1328,8 @@ export const ppnovice = [
   },
   {
     id: "POWERENTANGLEMODDEADLY",
-    name: starIcon + "Deadly (+4)",
-    button_name: starIcon + "Deadly (+4)",
+    name: "☆ Deadly (+4)",
+    button_name: "☆ Deadly (+4)",
     shotsUsed: "+4",
     and_selector: [
       { selector_type: "item_type", selector_value: "power" },
@@ -1437,8 +1434,8 @@ export const ppnovice = [
   // POWER Fear
   {
     id: "POWERFEARMODGREATERFEAR",
-    name: starIcon + "Greater Fear (+2)",
-    button_name: starIcon + "Greater Fear (+2)",
+    name: "☆ Greater Fear (+2)",
+    button_name: "☆ Greater Fear (+2)",
     shotsUsed: "+2",
     and_selector: [
       { selector_type: "item_type", selector_value: "power" },
@@ -1471,86 +1468,86 @@ export const ppnovice = [
 
   // ----------------------
   // POWER Havoc
-  {
-    id: "POWERHAVOCMODGREATER",
-    name: starIcon + "Greater Havoc (+2)",
-    button_name: starIcon + "Greater Havoc (+2)",
-    shotsUsed: "+2",
-    and_selector: [
-      { selector_type: "item_type", selector_value: "power" },
-      { selector_type: "item_name", selector_value: "Havoc" }
-    ],
-    group: "Havoc Modifiers - "
-  },
-  {
-    id: "POWERHAVOCMODAREA",
-    name: "Area Effect (+1)",
-    button_name: "Area Effect LBT (+1)",
-    shotsUsed: "+1",
-    and_selector: [
-      { selector_type: "item_type", selector_value: "power" },
-      { selector_type: "item_name", selector_value: "Havoc" }
-    ],
-    group: "Havoc Modifiers - "
-  },
+  // {
+  // id: "POWERHAVOCMODGREATER",
+  // name: "☆ Greater Havoc (+2)",
+  // button_name: "☆ Greater Havoc (+2)",
+  // shotsUsed: "+2",
+  // and_selector: [
+  // { selector_type: "item_type", selector_value: "power" },
+  // { selector_type: "item_name", selector_value: "Havoc" }
+  // ],
+  // group: "Havoc Modifiers - "
+  // },
+  // {
+  // id: "POWERHAVOCMODAREA",
+  // name: "Area Effect (+1)",
+  // button_name: "Area Effect LBT (+1)",
+  // shotsUsed: "+1",
+  // and_selector: [
+  // { selector_type: "item_type", selector_value: "power" },
+  // { selector_type: "item_name", selector_value: "Havoc" }
+  // ],
+  // group: "Havoc Modifiers - "
+  // },
 
   // ----------------------
   // POWER HEALING
-  {
-    id: "POWERHEALINGMODGREATERHEALING",
-    name: "Greater Healing (+10)",
-    button_name: "Greater Healing (+10)",
-    shotsUsed: "+10",
-    and_selector: [
-      { selector_type: "item_type", selector_value: "power" },
-      { selector_type: "item_name", selector_value: "Healing" }
-    ],
-    group: groupHealingName
-  },
-  {
-    id: "POWERHEALINGMODMASSHEALINGMEDIUMBLAST",
-    name: starIcon + "Mass Healing - Medium Blast (+2)",
-    button_name: starIcon + "Mass Healing - Medium Blast (+2)",
-    shotsUsed: "+2",
-    and_selector: [
-      { selector_type: "item_type", selector_value: "power" },
-      { selector_type: "item_name", selector_value: "Healing" }
-    ],
-    group: groupHealingName
-  },
-  {
-    id: "POWERHEALINGMODMASSHEALINGLARGEBLAST",
-    name: starIcon + "Mass Healing - Large Blast (+3)",
-    button_name: starIcon + "Mass Healing - Large Blast (+3)",
-    shotsUsed: "+3",
-    and_selector: [
-      { selector_type: "item_type", selector_value: "power" },
-      { selector_type: "item_name", selector_value: "Healing" }
-    ],
-    group: groupHealingName
-  },
-  {
-    id: "POWERHEALINGMODCRIPPLINGINJURIES",
-    name: "Crippling Injuries (+15)",
-    button_name: "Crippling Injuries (+15)",
-    shotsUsed: "+15",
-    and_selector: [
-      { selector_type: "item_type", selector_value: "power" },
-      { selector_type: "item_name", selector_value: "Healing" }
-    ],
-    group: groupHealingName
-  },
-  {
-    id: "POWERHEALINGMODNEUTRALIZEPOISON",
-    name: "Neutralize Poison or Disease (+1)",
-    button_name: "Neutralize Poison or Disease (+1)",
-    shotsUsed: "+1",
-    and_selector: [
-      { selector_type: "item_type", selector_value: "power" },
-      { selector_type: "item_name", selector_value: "Healing" }
-    ],
-    group: groupHealingName
-  },
+  // {
+  // id: "POWERHEALINGMODGREATERHEALING",
+  // name: "Greater Healing (+10)",
+  // button_name: "Greater Healing (+10)",
+  // shotsUsed: "+10",
+  // and_selector: [
+  // { selector_type: "item_type", selector_value: "power" },
+  // { selector_type: "item_name", selector_value: "Healing" }
+  // ],
+  // group: groupHealingName
+  // },
+  // {
+  // id: "POWERHEALINGMODMASSHEALINGMEDIUMBLAST",
+  // name: "☆ Mass Healing - Medium Blast (+2)",
+  // button_name: "☆ Mass Healing - Medium Blast (+2)",
+  // shotsUsed: "+2",
+  // and_selector: [
+  // { selector_type: "item_type", selector_value: "power" },
+  // { selector_type: "item_name", selector_value: "Healing" }
+  // ],
+  // group: groupHealingName
+  // },
+  // {
+  // id: "POWERHEALINGMODMASSHEALINGLARGEBLAST",
+  // name: "☆ Mass Healing - Large Blast (+3)",
+  // button_name: "☆ Mass Healing - Large Blast (+3)",
+  // shotsUsed: "+3",
+  // and_selector: [
+  // { selector_type: "item_type", selector_value: "power" },
+  // { selector_type: "item_name", selector_value: "Healing" }
+  // ],
+  // group: groupHealingName
+  // },
+  // {
+  // id: "POWERHEALINGMODCRIPPLINGINJURIES",
+  // name: "Crippling Injuries (+15)",
+  // button_name: "Crippling Injuries (+15)",
+  // shotsUsed: "+15",
+  // and_selector: [
+  // { selector_type: "item_type", selector_value: "power" },
+  // { selector_type: "item_name", selector_value: "Healing" }
+  // ],
+  // group: groupHealingName
+  // },
+  // {
+  // id: "POWERHEALINGMODNEUTRALIZEPOISON",
+  // name: "Neutralize Poison or Disease (+1)",
+  // button_name: "Neutralize Poison or Disease (+1)",
+  // shotsUsed: "+1",
+  // and_selector: [
+  // { selector_type: "item_type", selector_value: "power" },
+  // { selector_type: "item_name", selector_value: "Healing" }
+  // ],
+  // group: groupHealingName
+  // },
 
   // ----------------------
   // POWER Illusion
@@ -1600,8 +1597,8 @@ export const ppnovice = [
   },
   {
     id: "POWERILLUSIONMODDURATION",
-    name: starIcon + "Duration (+2)",
-    button_name: starIcon + "Duration (+2)",
+    name: "☆ Duration (+2)",
+    button_name: "☆ Duration (+2)",
     shotsUsed: "+2",
     and_selector: [
       { selector_type: "item_type", selector_value: "power" },
@@ -1611,8 +1608,8 @@ export const ppnovice = [
   },
   {
     id: "POWERILLUSIONMODDEADLY",
-    name: starIcon + "Deadly Illusion (+3)",
-    button_name: starIcon + "Deadly Illusion (+3)",
+    name: "☆ Deadly Illusion (+3)",
+    button_name: "☆ Deadly Illusion (+3)",
     shotsUsed: "+3",
     and_selector: [
       { selector_type: "item_type", selector_value: "power" },
@@ -1647,8 +1644,8 @@ export const ppnovice = [
   },
   {
     id: "POWERLIGHTDARKNESSMODTRUEDARKNESS",
-    name: starIcon + "True Darkness (+2)",
-    button_name: starIcon + "True Darkness (+2)",
+    name: "☆ True Darkness (+2)",
+    button_name: "☆ True Darkness (+2)",
     shotsUsed: "+2",
     and_selector: [
       { selector_type: "item_type", selector_value: "power" },
@@ -1658,8 +1655,8 @@ export const ppnovice = [
   },
   {
     id: "POWERLIGHTDARKNESSMODAREAEFFECT",
-    name: starIcon + "Area Effect (+2)",
-    button_name: starIcon + "Area Effect (+2)",
+    name: "☆ Area Effect (+2)",
+    button_name: "☆ Area Effect (+2)",
     shotsUsed: "+2",
     and_selector: [
       { selector_type: "item_type", selector_value: "power" },
@@ -1686,8 +1683,8 @@ export const ppnovice = [
   // POWER Mind Link
   {
     id: "POWERMINDLINKMODBROADCAST",
-    name: starIcon + "Broadcast (+2)",
-    button_name: starIcon + "Broadcast (+2)",
+    name: "☆ Broadcast (+2)",
+    button_name: "☆ Broadcast (+2)",
     shotsUsed: "+2",
     and_selector: [
       { selector_type: "item_type", selector_value: "power" },
@@ -1697,8 +1694,8 @@ export const ppnovice = [
   },
   {
     id: "POWERMINDLINKMODLONGDISTANCE",
-    name: starIcon + "Long Distance Link (+3)",
-    button_name: starIcon + "Long Distance Link (+3)",
+    name: "☆ Long Distance Link (+3)",
+    button_name: "☆ Long Distance Link (+3)",
     shotsUsed: "+3",
     and_selector: [
       { selector_type: "item_type", selector_value: "power" },
@@ -1811,8 +1808,8 @@ export const ppnovice = [
   // POWER Mind Reading
   {
     id: "POWERMINDREADINGMODMINDWALK",
-    name: starIcon + "Mind Walk (+2)",
-    button_name: starIcon + "Mind Walk (+2)",
+    name: "☆ Mind Walk (+2)",
+    button_name: "☆ Mind Walk (+2)",
     shotsUsed: "+2",
     and_selector: [
       { selector_type: "item_type", selector_value: "power" },
@@ -1821,133 +1818,132 @@ export const ppnovice = [
     group: "Mind Reading"
   },
 
-  // ---------------------- 
-  // POWER Protection
-  {
-    id: "POWERPROTECTIONMODSHIELDOTHER",
-    name: "Shield Other (+1)",
-    button_name: "Shield Other (+1)",
-    shotsUsed: "+1",
-    and_selector: [
-      { selector_type: "item_type", selector_value: "power" },
-      { selector_type: "item_name", selector_value: "Protection" }
-    ],
-    group: groupProtectionName
-  },
-  {
-    id: "POWERPROTECTIONMODADDITIONALRECIPIENTS",
-    name: "Additional Recipients +1",
-    button_name: "Add.Recip's +1",
-    shotsUsed: "+1",
-    and_selector: [
-      { selector_type: "item_type", selector_value: "power" },
-      { selector_type: "item_name", selector_value: "Protection" }
-    ],
-    group: groupProtectionName
-  },
-  {
-    id: "POWERPROTECTIONMODADDITIONALRECIPIENTS2",
-    name: "Additional Recipients +2",
-    button_name: "Add.Recip's +2",
-    shotsUsed: "+2",
-    and_selector: [
-      { selector_type: "item_type", selector_value: "power" },
-      { selector_type: "item_name", selector_value: "Protection" }
-    ],
-    group: groupProtectionName
-  },
-  {
-    id: "POWERPROTECTIONMODADDITIONALRECIPIENTS3",
-    name: "Additional Recipients +3",
-    button_name: "Add.Recip's +3",
-    shotsUsed: "+3",
-    and_selector: [
-      { selector_type: "item_type", selector_value: "power" },
-      { selector_type: "item_name", selector_value: "Protection" }
-    ],
-    group: groupProtectionName
-  },
-  {
-    id: "POWERPROTECTIONMODADDITIONALRECIPIENTS4",
-    name: "Additional Recipients +4",
-    button_name: "Add.Recip's +4",
-    shotsUsed: "+4",
-    and_selector: [
-      { selector_type: "item_type", selector_value: "power" },
-      { selector_type: "item_name", selector_value: "Protection" }
-    ],
-    group: groupProtectionName
-  },
+  // PROTECTION
+  // {
+  // id: "POWERPROTECTIONMODSHIELDOTHER",
+  // name: "Shield Other (+1)",
+  // button_name: "Shield Other (+1)",
+  // shotsUsed: "+1",
+  // and_selector: [
+  // { selector_type: "item_type", selector_value: "power" },
+  // { selector_type: "item_name", selector_value: "Protection" }
+  // ],
+  // group: groupProtectionName
+  // },
+  // {
+  // id: "POWERPROTECTIONMODADDITIONALRECIPIENTS",
+  // name: "Additional Recipients +1",
+  // button_name: "Add.Recipient's +1",
+  // shotsUsed: "+1",
+  // and_selector: [
+  // { selector_type: "item_type", selector_value: "power" },
+  // { selector_type: "item_name", selector_value: "Protection" }
+  // ],
+  // group: groupProtectionName
+  // },
+  // {
+  // id: "POWERPROTECTIONMODADDITIONALRECIPIENTS2",
+  // name: "Additional Recipients +2",
+  // button_name: "Add.Recipient's +2",
+  // shotsUsed: "+2",
+  // and_selector: [
+  // { selector_type: "item_type", selector_value: "power" },
+  // { selector_type: "item_name", selector_value: "Protection" }
+  // ],
+  // group: groupProtectionName
+  // },
+  // {
+  // id: "POWERPROTECTIONMODADDITIONALRECIPIENTS3",
+  // name: "Additional Recipients +3",
+  // button_name: "Add.Recipient's +3",
+  // shotsUsed: "+3",
+  // and_selector: [
+  // { selector_type: "item_type", selector_value: "power" },
+  // { selector_type: "item_name", selector_value: "Protection" }
+  // ],
+  // group: groupProtectionName
+  // },
+  // {
+  // id: "POWERPROTECTIONMODADDITIONALRECIPIENTS4",
+  // name: "Additional Recipients +4",
+  // button_name: "Add.Recipient's +4",
+  // shotsUsed: "+4",
+  // and_selector: [
+  // { selector_type: "item_type", selector_value: "power" },
+  // { selector_type: "item_name", selector_value: "Protection" }
+  // ],
+  // group: groupProtectionName
+  // },
 
   // ----------------------
   // POWER Relief
-  {
-    id: "POWERRELIEFMODRESTORATION",
-    name: "Restoration (+3)",
-    button_name: "Restoration (+3)",
-    shotsUsed: "+3",
-    and_selector: [
-      { selector_type: "item_type", selector_value: "power" },
-      { selector_type: "item_name", selector_value: "Relief" }
-    ],
-    group: groupReliefName
-  },
-  {
-    id: "POWERRELIEFMODSTUNNED",
-    name: "Stunned (+1)",
-    button_name: "Stunned (+1)",
-    shotsUsed: "+1",
-    and_selector: [
-      { selector_type: "item_type", selector_value: "power" },
-      { selector_type: "item_name", selector_value: "Relief" }
-    ],
-    group: groupReliefName
-  },
-  // ----------------------
-  {
-    id: "POWERRELIEFMODADDITIONALRECIPIENTS",
-    name: "Additional Recipients +1",
-    button_name: "Add.Recip's +1",
-    shotsUsed: "+1",
-    and_selector: [
-      { selector_type: "item_type", selector_value: "power" },
-      { selector_type: "item_name", selector_value: "Relief" }
-    ],
-    group: groupReliefName
-  },
-  {
-    id: "POWERRELIEFMODADDITIONALRECIPIENTS2",
-    name: "Additional Recipients +2",
-    button_name: "Add.Recip's +2",
-    shotsUsed: "+2",
-    and_selector: [
-      { selector_type: "item_type", selector_value: "power" },
-      { selector_type: "item_name", selector_value: "Relief" }
-    ],
-    group: groupReliefName
-  },
-  {
-    id: "POWERRELIEFMODADDITIONALRECIPIENTS3",
-    name: "Additional Recipients +3",
-    button_name: "Add.Recip's +3",
-    shotsUsed: "+3",
-    and_selector: [
-      { selector_type: "item_type", selector_value: "power" },
-      { selector_type: "item_name", selector_value: "Relief" }
-    ],
-    group: groupReliefName
-  },
-  {
-    id: "POWERRELIEFMODADDITIONALRECIPIENTS4",
-    name: "Additional Recipients +4",
-    button_name: "Add.Recip's +4",
-    shotsUsed: "+4",
-    and_selector: [
-      { selector_type: "item_type", selector_value: "power" },
-      { selector_type: "item_name", selector_value: "Relief" }
-    ],
-    group: groupReliefName
-  },
+  // {
+  //   id: "POWERRELIEFMODRESTORATION",
+  //   name: "Restoration (+3)",
+  //   button_name: "Restoration (+3)",
+  //   shotsUsed: "+3",
+  //   and_selector: [
+  //     { selector_type: "item_type", selector_value: "power" },
+  //     { selector_type: "item_name", selector_value: "Relief" }
+  //   ],
+  //   group: groupReliefName
+  // },
+  // {
+  //   id: "POWERRELIEFMODSTUNNED",
+  //   name: "Stunned (+1)",
+  //   button_name: "Stunned (+1)",
+  //   shotsUsed: "+1",
+  //   and_selector: [
+  //     { selector_type: "item_type", selector_value: "power" },
+  //     { selector_type: "item_name", selector_value: "Relief" }
+  //   ],
+  //   group: groupReliefName
+  // },
+  // // ----------------------
+  // {
+  //   id: "POWERRELIEFMODADDITIONALRECIPIENTS",
+  //   name: "Additional Recipients +1",
+  //   button_name: "Add.Recipient's +1",
+  //   shotsUsed: "+1",
+  //   and_selector: [
+  //     { selector_type: "item_type", selector_value: "power" },
+  //     { selector_type: "item_name", selector_value: "Relief" }
+  //   ],
+  //   group: groupReliefName
+  // },
+  // {
+  //   id: "POWERRELIEFMODADDITIONALRECIPIENTS2",
+  //   name: "Additional Recipients +2",
+  //   button_name: "Add.Recipient's +2",
+  //   shotsUsed: "+2",
+  //   and_selector: [
+  //     { selector_type: "item_type", selector_value: "power" },
+  //     { selector_type: "item_name", selector_value: "Relief" }
+  //   ],
+  //   group: groupReliefName
+  // },
+  // {
+  //   id: "POWERRELIEFMODADDITIONALRECIPIENTS3",
+  //   name: "Additional Recipients +3",
+  //   button_name: "Add.Recipient's +3",
+  //   shotsUsed: "+3",
+  //   and_selector: [
+  //     { selector_type: "item_type", selector_value: "power" },
+  //     { selector_type: "item_name", selector_value: "Relief" }
+  //   ],
+  //   group: groupReliefName
+  // },
+  // {
+  //   id: "POWERRELIEFMODADDITIONALRECIPIENTS4",
+  //   name: "Additional Recipients +4",
+  //   button_name: "Add.Recipient's +4",
+  //   shotsUsed: "+4",
+  //   and_selector: [
+  //     { selector_type: "item_type", selector_value: "power" },
+  //     { selector_type: "item_name", selector_value: "Relief" }
+  //   ],
+  //   group: groupReliefName
+  // },
 
   // ----------------------
   // POWER Sanctuary
@@ -1987,112 +1983,112 @@ export const ppnovice = [
 
   // ----------------------
   // POWER Shape Change
-  {
-    id: "POWERSHAPECHANGEMODDURATION",
-    name: "Duration (+1)",
-    button_name: "Duration (+1)",
-    shotsUsed: "+1",
-    and_selector: [
-      { selector_type: "item_type", selector_value: "power" },
-      { selector_type: "item_name", selector_value: "Shape Change" }
-    ],
-    group: groupShapeChangeName
-  },
-  {
-    id: "POWERSHAPECHANGEMODTRANSFORM2",
-    name: starIcon + "Transform (+2)",
-    button_name: starIcon + "Transform (+2)",
-    shotsUsed: "+2",
-    and_selector: [
-      { selector_type: "item_type", selector_value: "power" },
-      { selector_type: "item_name", selector_value: "Shape Change" }
-    ],
-    group: groupShapeChangeName
-  },
-  {
-    id: "POWERSHAPECHANGEMODTRANSFORM3",
-    name: starIcon + "Transform (+3)",
-    button_name: starIcon + "Transform (+3)",
-    shotsUsed: "+3",
-    and_selector: [
-      { selector_type: "item_type", selector_value: "power" },
-      { selector_type: "item_name", selector_value: "Shape Change" }
-    ],
-    group: groupShapeChangeName
-  },
-  {
-    id: "POWERSHAPECHANGEMODPOLYMORPH",
-    name: starIcon + "Polymorph (+3)",
-    button_name: starIcon + "Polymorph (+3)",
-    shotsUsed: "+3",
-    and_selector: [
-      { selector_type: "item_type", selector_value: "power" },
-      { selector_type: "item_name", selector_value: "Shape Change" }
-    ],
-    group: groupShapeChangeName
-  },
-  {
-    id: "POWERSHAPECHANGEMODSIZE1",
-    name: "SIZE-4TO-1 (+3)",
-    button_name: "Sz-4to-1 (+3)",
-    shotsUsed: "+3",
-    and_selector: [
-      { selector_type: "item_type", selector_value: "power" },
-      { selector_type: "item_name", selector_value: "Shape Change" }
-    ],
-    group: groupShapeChangeName
-  },
-  {
-    id: "POWERSHAPECHANGEMODSIZE2",
-    name: "SIZE0 (+5)",
-    button_name: "Sz0 (+5)",
-    shotsUsed: "+5",
-    and_selector: [
-      { selector_type: "item_type", selector_value: "power" },
-      { selector_type: "item_name", selector_value: "Shape Change" }
-    ],
-    group: groupShapeChangeName
-  },
-  {
-    id: "POWERSHAPECHANGEMODSIZE3",
-    name: "SIZE1to2 (+8)",
-    button_name: "Sz1to2 (+8)",
-    shotsUsed: "+8",
-    and_selector: [
-      { selector_type: "item_type", selector_value: "power" },
-      { selector_type: "item_name", selector_value: "Shape Change" }
-    ],
-    group: groupShapeChangeName
-  },
-  {
-    id: "POWERSHAPECHANGEMODSIZE4",
-    name: "SIZE3to4 (+11)",
-    button_name: "Sz3to4 (+1)",
-    shotsUsed: "+11",
-    and_selector: [
-      { selector_type: "item_type", selector_value: "power" },
-      { selector_type: "item_name", selector_value: "Shape Change" }
-    ],
-    group: groupShapeChangeName
-  },
-  {
-    id: "POWERSHAPECHANGEMODSIZE5",
-    name: "SIZE5to10 (+15)",
-    button_name: "Sz5to10 (+15)",
-    shotsUsed: "+15",
-    and_selector: [
-      { selector_type: "item_type", selector_value: "power" },
-      { selector_type: "item_name", selector_value: "Shape Change" }
-    ],
-    group: groupShapeChangeName
-  },
+  // {
+  //   id: "POWERSHAPECHANGEMODDURATION",
+  //   name: "Duration (+1)",
+  //   button_name: "Duration (+1)",
+  //   shotsUsed: "+1",
+  //   and_selector: [
+  //     { selector_type: "item_type", selector_value: "power" },
+  //     { selector_type: "item_name", selector_value: "Shape Change" }
+  //   ],
+  //   group: groupShapeChangeName
+  // },
+  // {
+  //   id: "POWERSHAPECHANGEMODTRANSFORM2",
+  //   name: "☆ Transform (+2)",
+  //   button_name: "☆ Transform (+2)",
+  //   shotsUsed: "+2",
+  //   and_selector: [
+  //     { selector_type: "item_type", selector_value: "power" },
+  //     { selector_type: "item_name", selector_value: "Shape Change" }
+  //   ],
+  //   group: groupShapeChangeName
+  // },
+  // {
+  //   id: "POWERSHAPECHANGEMODTRANSFORM3",
+  //   name: "☆ Transform (+3)",
+  //   button_name: "☆ Transform (+3)",
+  //   shotsUsed: "+3",
+  //   and_selector: [
+  //     { selector_type: "item_type", selector_value: "power" },
+  //     { selector_type: "item_name", selector_value: "Shape Change" }
+  //   ],
+  //   group: groupShapeChangeName
+  // },
+  // {
+  //   id: "POWERSHAPECHANGEMODPOLYMORPH",
+  //   name: "☆ Polymorph (+3)",
+  //   button_name: "☆ Polymorph (+3)",
+  //   shotsUsed: "+3",
+  //   and_selector: [
+  //     { selector_type: "item_type", selector_value: "power" },
+  //     { selector_type: "item_name", selector_value: "Shape Change" }
+  //   ],
+  //   group: groupShapeChangeName
+  // },
+  // {
+  //   id: "POWERSHAPECHANGEMODSIZE1",
+  //   name: "SIZE-4TO-1 (+3)",
+  //   button_name: "Sz-4to-1 (+3)",
+  //   shotsUsed: "+3",
+  //   and_selector: [
+  //     { selector_type: "item_type", selector_value: "power" },
+  //     { selector_type: "item_name", selector_value: "Shape Change" }
+  //   ],
+  //   group: groupShapeChangeName
+  // },
+  // {
+  //   id: "POWERSHAPECHANGEMODSIZE2",
+  //   name: "SIZE0 (+5)",
+  //   button_name: "Sz0 (+5)",
+  //   shotsUsed: "+5",
+  //   and_selector: [
+  //     { selector_type: "item_type", selector_value: "power" },
+  //     { selector_type: "item_name", selector_value: "Shape Change" }
+  //   ],
+  //   group: groupShapeChangeName
+  // },
+  // {
+  //   id: "POWERSHAPECHANGEMODSIZE3",
+  //   name: "SIZE1to2 (+8)",
+  //   button_name: "Sz1to2 (+8)",
+  //   shotsUsed: "+8",
+  //   and_selector: [
+  //     { selector_type: "item_type", selector_value: "power" },
+  //     { selector_type: "item_name", selector_value: "Shape Change" }
+  //   ],
+  //   group: groupShapeChangeName
+  // },
+  // {
+  //   id: "POWERSHAPECHANGEMODSIZE4",
+  //   name: "SIZE3to4 (+11)",
+  //   button_name: "Sz3to4 (+1)",
+  //   shotsUsed: "+11",
+  //   and_selector: [
+  //     { selector_type: "item_type", selector_value: "power" },
+  //     { selector_type: "item_name", selector_value: "Shape Change" }
+  //   ],
+  //   group: groupShapeChangeName
+  // },
+  // {
+  //   id: "POWERSHAPECHANGEMODSIZE5",
+  //   name: "SIZE5to10 (+15)",
+  //   button_name: "Sz5to10 (+15)",
+  //   shotsUsed: "+15",
+  //   and_selector: [
+  //     { selector_type: "item_type", selector_value: "power" },
+  //     { selector_type: "item_name", selector_value: "Shape Change" }
+  //   ],
+  //   group: groupShapeChangeName
+  // },
 
   // ----------------------
   // POWER SMITE
   {
     id: "POWERSMITEMODGREATERSMITE",
-    name: starIcon + "Greater Smite (+2)",
-    button_name: starIcon + "Greater Smite (+2)",
+    name: "☆ Greater Smite (+2)",
+    button_name: "☆ Greater Smite (+2)",
     shotsUsed: "+2",
     and_selector: [
       { selector_type: "item_type", selector_value: "power" },
@@ -2116,8 +2112,8 @@ export const ppnovice = [
   // POWER Sound/Silence
   {
     id: "POWERSOUNDMODGREATER",
-    name: starIcon + "Greater Sound/Silence (+1)",
-    button_name: starIcon + "Greater Sound/Silence (+1)",
+    name: "☆ Greater Sound/Silence (+1)",
+    button_name: "☆ Greater Sound/Silence (+1)",
     shotsUsed: "+1",
     and_selector: [
       { selector_type: "item_type", selector_value: "power" },
@@ -2263,8 +2259,8 @@ export const ppnovice = [
   // POWER Speak Language
   {
     id: "POWERLANGUAGEMODGREATER",
-    name: starIcon + "Greater Speak Language (+2)",
-    button_name: starIcon + "Greater Speak Language (+2)",
+    name: "☆ Greater Speak Language (+2)",
+    button_name: "☆ Greater Speak Language (+2)",
     shotsUsed: "+2",
     and_selector: [
       { selector_type: "item_type", selector_value: "power" },
@@ -2274,8 +2270,8 @@ export const ppnovice = [
   },
   {
     id: "POWERLANGUAGEMODMASS",
-    name: starIcon + "Mass Understanding (+5)",
-    button_name: starIcon + "Mass Understanding (+5)",
+    name: "☆ Mass Understanding (+5)",
+    button_name: "☆ Mass Understanding (+5)",
     shotsUsed: "+5",
     and_selector: [
       { selector_type: "item_type", selector_value: "power" },
